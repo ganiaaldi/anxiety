@@ -170,7 +170,7 @@ h: Oke mari kita kembali ke karakter.
 Game.clearText();
 ```
 
-n4: (BIARKAN KECEMASAN_MU_ BLAH BLAH MIRIP DENGAN KETAKUTAN_MU_ BLAH BLAH KAMU MENGETAHUI LUBANGNYA)
+n4: (BIARKAN _KECEMASANMU_ BLAH BLAH MIRIP DENGAN _KETAKUTANMU_ BLAH BLAH KAMU MENGETAHUI LUBANGNYA)
 
 ```
 sfx("squeak");
@@ -208,7 +208,7 @@ b: Manusia! Dengar, kita dalam bahaya! Bahayanya adalah..
 
 `bb({body:"squeeze"})`
 
-n4: (BIARKAN KECEMASAN_MU_ KELUAR UNTUK BERMAIN! PILIH YANG PALING SAMA DENGAN KETAKUTAN_MU_)
+n4: (BIARKAN _KECEMASANMU_ KELUAR UNTUK BERMAIN! PILIH YANG PALING SAMA DENGAN _KETAKUTANMU_)
 
 (#act1_normal_choice)
 
@@ -364,9 +364,11 @@ n: KETAKUTAN *MENJADI TERSAKITI* #harm#
 n: KETAKUTAN *TIDAK DICINTAI* #alone#
 
 n: DAN KETAKUTAN *MENJADI ORANG BURUK* #bad#
+
 `Game.OVERRIDE_TEXT_SPEED = 1.25;`
 
 n4: (TIPS: BERMAIN DENGAN PILIHAN DENGAN KEPRIBADIANMU TERDALAM, KETAKUTAN TERGELAP!~)
+
 h: ...
 
 ```
@@ -379,7 +381,8 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-h: kamu tahu, apa mungkin sudah waktunya mengecek ponsel saya.
+h: kamu tahu, apa mungkin sudah waktunya aku mengecek ponsel.
+
 ```
 sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
@@ -576,7 +579,7 @@ attack("18p", "bad");
 
 h: Uhh. Jika itu akan membuatmu diam, baiklah.
 
-h: Saya akan mengabaikan undangannya.
+h: Aku akan mengabaikan undangannya.
 
 `_.partyinvite="ignore"`
 
@@ -589,19 +592,19 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({mouth:"neutral", eyes:"annoyed"});
 ```
 
-h: Anyway. Facebook's too much. I need something calmer, less anxiety-producing.
+h: Bagaimanapun. Facebook terlalu berlebihan. Aku butuh sesuatu lebih tenang, yang tidak menimbulkan kecemasan.
 
 `hong({eyes:"neutral"});`
 
-h: What's new on Twitter?
+h: Apa yang baru di Twitter?
 
 `bb({eyes:"look"});`
 
-[Oh no, look at that horrible news story!](#act1d_news)
+[Oh tidak, lihat berita mengerikan itu!](#act1d_news)
 
-[Oh no, is that tweet secretly about *us?*](#act1d_subtweet)
+[Oh tidak, apakah itu tweet berisi rahasia tentang *kita?*](#act1d_subtweet)
 
-[Hey, a GIF of a cat drinking milk](#act1d_milk)
+[Hei, animasi kucing minum susu](#act1d_milk)
 
 
 # act1d_news
@@ -611,14 +614,14 @@ bb({eyes:"pained1"});
 music(null, {fade:2});
 ```
 
-b: God, it feels like the world's burning, isn't it?
+b: Tuhan, dunia ini rasanya seperti terbakar bukan?
 
 ```
 bb({eyes:"pained2"});
 hong({mouth:"sad", eyes:"sad"});
 ```
 
-b: It feels like it's all ending, like everything's dying and we're doomed and there's nothing we can do about it.
+b: Rasanya semua akan berakhir, seperti semuanya sekarat dan kita dikutuk dan tidak ada yang bisa kita lakukan untuk itu.
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 0.5;
@@ -629,7 +632,7 @@ b: ...
 
 `bb({mouth:"smile", eyes:"smile"});`
 
-b: Let's retweet that story!
+b: Mari kita Retweet cerita itu!
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -647,11 +650,11 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Okay I'll retweet it just please be quiet!
+h: Oke aku akan meretweet itu!
 
 `hong({mouth:"neutral", eyes:"annoyed"});`
 
-h: Screw it, let's look at Snapchat.
+h: Persetan, mari kita lihat Snapchat.
 
 (#act1e)
 
@@ -660,35 +663,35 @@ h: Screw it, let's look at Snapchat.
 
 `bb({eyes:"fear"});`
 
-b: It's a subtweet! A sneaky, sneaky subtweet!
+b: Ini tweet! Sebuah tweet yang licik dan licik!
 
 `hong({eyes:"annoyed"});`
 
-h: It's probably not?
+h: Mungkin saja tidak?
 
 `bb({eyes:"narrow", mouth:"small"});`
 
-b: but what if they're all talking behind our back
+b: Tapi bagaimana jika mereka semua berbicara dibelakang punggung kita
 
-h: They're n--
+h: Mereka ti-
 
 `bb({body:"fear", eyes:"fear", mouth:"normal"});`
 
-b: IN FRONT OF OUR BACK
+b: DI DEPAN DARI BELAKANG KITA
 
 `hong({eyes:"sad", mouth:"sad"});`
 
-h: I d--
+h: Aku ti-
 
 `bb({eyes:"narrow", mouth:"small"});`
 
-b: but *what if*
+b: Tapi *bagaimana jika*
 
-h: S--
+h: A--
 
 `bb({eyes:"narrow_eyebrow"});`
 
-b: *what if*
+b: *Bagaimana jika*
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 0.5;
@@ -721,7 +724,7 @@ h: o-KAY, gonna try Snapchat.
 
 `hong({mouth:"smile", eyes:"neutral"});`
 
-h: Heh ya that's cute, just retweeted it, I thi--
+h: Haha itu lucu, mari kita retweet, aku su--
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -729,7 +732,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.8;
 ```
 
-b: CATS CAN'T DIGEST MILK AND WE'RE TERRIBLE PEOPLE FOR ENJOYING ANIMAL ABUSE
+b: KUCING TIDAK DAPAT MENCERNA SUSU DAN KITA ADALAH ORANG MENGERIKAN KARENA MENIKMATI PELECEHAN HEWAN
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"fear"});
@@ -746,7 +749,7 @@ hong({mouth:"anger", eyes:"annoyed"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: o-KAY, gonna try Snapchat.
+h: O-ke, mari coba Snapchat.
 
 (#act1e)
 
@@ -754,7 +757,7 @@ h: o-KAY, gonna try Snapchat.
 
 `hong({mouth:"neutral", eyes:"neutral"});`
 
-h: Huh, photos from yesterday night. So *that's* what those weekly parties are like.
+h: Hah, foto dari kemarin malam. Jadi *begitulah* seperti apa pesta mingguan terlihat.
 
 {{if _.partyinvite=="yes"}} (#act1e_said_yes) {{/if}}
 
@@ -766,29 +769,29 @@ h: Huh, photos from yesterday night. So *that's* what those weekly parties are l
 
 `hong({mouth:"sad", eyes:"annoyed"});`
 
-h: Oof, looks way too crowded for my anxiety.
+h: Oof, terlihat terlalu ramai untuk kecemasanku.
 
-h: Maybe I shouldn't have said yes to the invite?
+h: Mungkin aku seharusnya tidak mengatakan ya untuk datang ke sini?
 
 ```
 hong({mouth:"neutral", eyes:"neutral"});
 bb({mouth:"normal", eyes:"normal"});
 ```
 
-[Change our answer? Like a jerk?!](#act1e_yes_dontchange)
+[Ubah jawaban kita? Seperti orang brengsek?!](#act1e_yes_dontchange)
 
-[Change our answer! It's too crowded!](#act1e_yes_changetono)
+[Ubah jawaban kita! Ini terlalu ramai!](#act1e_yes_changetono)
 
 {{if _.subtweet}}
-[Yeah they were totally subtweeting us.](#act1e_ignore_subtweet)
+[Yahh mereka benar-benar melakukan tweets kita.](#act1e_ignore_subtweet)
 {{/if}}
 
 {{if _.badnews}}
-[Wait we retweeted without fact-checking.](#act1e_ignore_factcheck)
+[Tunggu, kita meretweet tanpa pemeriksaan fakta.](#act1e_ignore_factcheck)
 {{/if}}
 
 {{if (!_.subtweet && !_.badnews)}}
-[You know, you've got really bad posture?](#act1e_ignore_posture)
+[Tahukah kamu, posturmu benar-benar buruk?](#act1e_ignore_posture)
 {{/if}}
 
 # act1e_yes_dontchange
@@ -798,14 +801,14 @@ bb({eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: They were counting on us to come and now we're betraying their trust? Do you wanna die alone?!
+b: Mereka menghitungmu untuk datang dan sekarang kamu menghianati kepercayaan mereka? Apa kamu ingin mati sendiri?!
 
 {{if _.fifteencigs}}
-b: FIFTEEN. CIGARETTES.
+b: LIMA BELAS. BATANG ROKOK.
 {{/if}}
 
 {{if _.whalepoop}}
-b: WHALE. POOP.
+b: KOTORAN. IKAN PAUS.
 {{/if}}
 
 ```
@@ -820,7 +823,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll keep it as yes!
+h: Diamm, aku tetap menjawab ya!
 
 (#act1f)
 
@@ -831,7 +834,7 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Don't you know about human stampedes?
+b: Apakah kamu mengetahui tentang penyerbuan manusia?
 
 ```
 bb({body:"fear", mouth:"small", eyes:"narrow"});
@@ -839,7 +842,7 @@ hong({eyes:"sad", mouth:"sad"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: In 2003 a Rhode Island nightclub had a fire and the panic made people jam the exits so 100 people burned to death-
+b: Pada tahun 2003 klub malam Pulau Rhode mengalami kebakaran dan kepanikan membuat orang-orang memacetkan pintu keluar sehingga 100 orang terbakar hingga mati-
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"fear"});
@@ -847,14 +850,14 @@ hong({mouth:"shock"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: DO YOU WANT THAT TO HAPPEN TO US-
+b: APAKAH KAMU INGIN MENGETAHUI APA YANG TERJADI-
 
 ```
 bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 2.5;
 ```
 
-b: SAY NO SAY NO SAY NO SAY NO SAY NO SAY NO SAY NO SAY NO SAY N-
+b: KATAKAN TIDAK KATAKAN TIDAK KATAKAN TI--
 
 
 ```
@@ -870,7 +873,7 @@ hong({eyes:"anger", mouth:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll change my answer to no! God!
+h: Diamm, aku akan mengganti jawaban ke tidak!
 
 (#act1f)
 
@@ -878,35 +881,35 @@ h: Shut up shut up I'll change my answer to no! God!
 
 `hong({mouth:"sad", eyes:"sad"});`
 
-h: Hm... that looks really fun.
+h: Hm... itu terlihat menyenangkan.
 
-h: Maybe I shouldn't have said no to the invite?
+h: Mungkin seharusnya aku datang ke undangan?
 
 `bb({mouth:"normal", eyes:"normal"});`
 
-[Change our answer? Like a jerk?!](#act1e_no_dontchange)
+[Ubah jawaban kita? Seperti orang brengsek?!](#act1e_no_dontchange)
 
-[Change our answer! Don't die alone!](#act1e_no_changetoyes)
+[Ubah jawaban kita? Jangan mati sendirian](#act1e_no_changetoyes)
 
 {{if _.subtweet}}
-[Yeah they were totally subtweeting us.](#act1e_ignore_subtweet)
+[Yahh mereka benar-benar melakukan tweets kita.](#act1e_ignore_subtweet)
 {{/if}}
 
 {{if _.badnews}}
-[Wait we retweeted without fact-checking.](#act1e_ignore_factcheck)
+[Tunggu, kita meretweet tanpa pemeriksaan fakta.](#act1e_ignore_factcheck)
 {{/if}}
 
 {{if (!_.subtweet && !_.badnews)}}
-[You know, you've got really bad posture?](#act1e_ignore_posture)
+[Tahukah kamu, posturmu benar-benar buruk?](#act1e_ignore_posture)
 {{/if}}
 
 # act1e_no_dontchange
 
 `bb({eyes:"anger"})`
 
-b: Everybody was counting on us!
+b: Semua orang mengandalkan kita!
 
-b: ...to leave them alone and let them have a nice party without a horrible disgusting {{if _.whitebread}}white-bread-munching{{/if}} creep like u--
+b: ...untuk membiarkan mereka pergi sendiri dan membiarkan mereka berpesta tanpa gangguan menyebalkan{{if _.whitebread}}pengunyah roti putih{{/if}} yang menjijikan sepertimu--
 
 
 ```
@@ -922,7 +925,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll keep it as no!
+h: Diamm, aku tetap berkata tidak!
 
 (#act1f)
 
@@ -933,7 +936,7 @@ bb({body:"fear", eyes:"fear", mouth:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Chronic loneliness increases our cortisol levels as well as risk for cardiovascular disease and stroke!
+b: Kesepian kronis meningkatkan kadar kolesterol serta resiko penyakit kardiovaskular dan stroke!
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -943,7 +946,7 @@ attack("18p", "harm");
 (...2500)
 
 {{if _.fifteencigs}}
-b: FIFTEEN. CIGARETTES.
+b: LIMA BELAS. BATANG ROKOK.
 {{/if}}
 
 ```
@@ -952,7 +955,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll change my answer to yes! God!
+h: Diamm, aku akan mengubah jawaban menjadi ya! Oh Tuhan!
 
 (#act1f)
 
@@ -963,14 +966,14 @@ bb({eyes:"fear", mouth:"small"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: All our problematic tweets have come back to roost!
+b: Semua tweets yang bermasalah kembali bertengger!
 
 ```
 bb({body:"fear", eyes:"fear", mouth:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.7;
 ```
 
-b: We're gonna get called out and cancelled and dragged with a rope on horseback down the information superhighway!
+b: Kita akan dipanggil dan diseret dengan tali diatas punggung kuda menyusuri jalan raya!
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -985,7 +988,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Why are you like this?!
+h: Kenapa kamu seperti ini?!
 
 (#act1f)
 
@@ -996,14 +999,14 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: We're spreading disinformation! We're destroying trust in a free press!
+b: Kita menyebarkan informasi palsu! Kita menghancurkan kepercayaan pers!
 
 ```
 bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: We're the reason fascism will arise from the rubble of democracy!
+b: Kita akan menjadi alasan fasisme bangkit dari puing-puing demokrasi!
 
 ```
 bb({body:"normal", eyes:"anger"});
@@ -1019,7 +1022,7 @@ Game.OVERRIDE_TEXT_SPEED = 1.5;
 _.factcheck = true;
 ```
 
-h: Why are you like this?!
+h: Kenapa kamu seperti ini?!
 
 (#act1f)
 
@@ -1030,13 +1033,13 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Do you want to have a pretzel for a spine?! Stop hunching over your screen!
+b: Apakah kamu ingin pretzel untuk tulang belakang?! Berhenti membungkuk di depan layar!
 
 ```
 bb({body:"meta"});
 ```
 
-b: That means you too.
+b: Itu berlaku untukmu juga.
 
 ```
 bb({body:"normal", mouth:"normal"});
@@ -1052,7 +1055,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Why are you like this?!
+h: Kenapa kamu seperti ini?!
 
 (#act1f)
 
@@ -1060,27 +1063,27 @@ h: Why are you like this?!
 
 `hong({mouth:"sad", eyes:"sad"});`
 
-h: Hm... that looks really fun.
+h: Hm... itu terlihat menyenangkan.
 
-h: Maybe I shouldn't have ignored the invite?
+h: Mungkin seharusnya aku tidak mengabaikan undangan?
 
 `bb({mouth:"normal", eyes:"normal"});`
 
-[Keep ignoring, we're still party poopers.](#act1e_ignore_continue)
+[Tetap abaikan, kita adalah kotoran pesta.](#act1e_ignore_continue)
 
-[Actually, say yes.](#act1e_ignore_changetoyes)
+[Sebenarnya, katakan ya.](#act1e_ignore_changetoyes)
 
-[Actually, say no.](#act1e_ignore_changetono)
+[Sebenarnya, katakan tidak.](#act1e_ignore_changetono)
 
 # act1e_ignore_continue
 
 `hong({eyes:"annoyed"});`
 
-h: It's kinda rude to keep ignoring them though, no?
+h: Itu agak kasar untuk terus mengabaikan mereka, bukan?
 
 `bb({eyes:"normal_right"});`
 
-b: Well other people always ignore *us*, so
+b: Yahh orang lain selalu mengabaikan *kita*, jadi
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -1091,7 +1094,7 @@ attack("18p", "alone");
 
 `bb({eyes:"normal"});`
 
-b: so let's just call it even.
+b: jadi anggap saja itu impas
 
 (#act1f)
 
@@ -1099,9 +1102,9 @@ b: so let's just call it even.
 
 `hong({eyes:"surprise", mouth:"smile"});`
 
-h: You're... letting me have fun?
+h: Kamu.. membiarkanku untuk bersenang-senang?
 
-b: Well, I mean, loneliness *can* kill us.
+b: Yahh, maksudku, kesepian *bisa* membunuh kita.
 
 `hong({eyes:"neutral", mouth:"neutral"});`
 
@@ -1111,7 +1114,7 @@ b: Well, I mean, loneliness *can* kill us.
 
 `bb({eyes:"narrow"});`
 
-b: It's too crowded. Crowds are dangerous.
+b: Ini terlalu ramai. Keramaian itu berbahaya.
 
 (#act1e_yes_changetono)
 
