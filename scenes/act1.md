@@ -63,7 +63,7 @@ b: Mereka akan membuat kita menringkuk menjadi bola dan menangis!
 {{/if}}
 
 {{if window.HACK_REPLAY.act1_ending=="flight"}}
-b: Mereka akan mematikan ponsel anda untuk memberikan serangan panik!
+b: Mereka akan mematikan ponselmu untuk memberikan serangan panik!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="fight"}}
@@ -116,7 +116,7 @@ h: hal cabul-apa sekarang?
 
 `bb({eyes:"normal"});`
 
-b: Alur cerita tentang bagaimana anda dapat *MEMILIH* untuk membangun kolaborasi dengan ketakutan anda,
+b: Alur cerita tentang bagaimana kamu dapat *MEMILIH* untuk membangun kolaborasi dengan ketakutanmu,
 
 `bb({eyes:"normal_right"});`
 
@@ -170,7 +170,7 @@ h: Oke mari kita kembali ke karakter.
 Game.clearText();
 ```
 
-n4: (BIARKAN KECEMASAN _ANDA_ BLAH BLAH MIRIP DENGAN KETAKUTAN _ANDA_ BLAH BLAH ANDA MENGETAHUI LUBANGNYA)
+n4: (BIARKAN KECEMASAN_MU_ BLAH BLAH MIRIP DENGAN KETAKUTAN_MU_ BLAH BLAH KAMU MENGETAHUI LUBANGNYA)
 
 ```
 sfx("squeak");
@@ -190,7 +190,7 @@ h: Ya Tuhan, serigalaku kembali. Faaaaanntastis.
 
 `hong({eyes:"0_neutral"})`
 
-n: PEKERJAAN ANDA ADALAH MENJAGA MANUSIA DARI *BAHAYA*
+n: PEKERJAANMU ADALAH MENJAGA MANUSIA DARI *BAHAYA*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
@@ -208,13 +208,13 @@ b: Manusia! Dengar, kita dalam bahaya! Bahayanya adalah..
 
 `bb({body:"squeeze"})`
 
-n4: (BIARKAN KECEMASAN _ANDA_ KELUAR UNTUK BERMAIN! PILIH YANG PALING SAMA DENGAN KETAKUTAN _ANDA_)
+n4: (BIARKAN KECEMASAN_MU_ KELUAR UNTUK BERMAIN! PILIH YANG PALING SAMA DENGAN KETAKUTAN_MU_)
 
 (#act1_normal_choice)
 
 # act1_normal_choice
 
-[Kita makan sendiri untuk makan siang! Lagi!](#act1a_alone) `bb({body:"squeeze_talk"})`
+[Kita makan sendirian untuk makan siang! Lagi!](#act1a_alone) `bb({body:"squeeze_talk"})`
 
 [Kita tidak produktif ketika makan!](#act1a_productive) `bb({body:"squeeze_talk"})`
 
@@ -281,9 +281,9 @@ bb({mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Jika kita tidak berkontribusi pada masyarakat maka kita adalah parasit masyarakat!
+b: Jika kita tidak berkontribusi pada masyarakat maka kita adalah masyarakat parasit !
 
-b: Badan masyarakat akan pergi ke dokter untuk pengobatan guna membunuh parasit masyarakat, lalu kita akan--
+b: Badan masyarakat akan pergi ke dokter untuk pengobatan guna membunuh masyarakat parasit , lalu kita akan--
 
 ```
 bb({body:"panic", mouth:"normal", eyes:"fear"});
@@ -303,7 +303,7 @@ publish("hp_show");
 
 `_.parasite = true`
 
-n: KAMU MENGGUNAKAN *KETAKUTAN MENJADI ORANG JAHAT*
+n: KAMU MENGGUNAKAN *KETAKUTAN MENJADI ORANG BURUK*
 
 (#act1b)
 
@@ -343,32 +343,30 @@ n: KAMU MENGGUNAKAN *KETAKUTAN MENJADI ORANG TERSAKITI*
 
 # act1b
 
-n: IT'S SUPER EFFECTIVE
+n: INI SANGAT EFEKTIF!
 
 `bb({mouth:"smile", eyes:"smile"});`
 
-b: See, human? I am your loyal guard-wolf!
+b: Lihat, manusia? Aku adalah serigala penjagamu!
 
 `bb({body:"pride_talk"});`
 
-b: Trust your gut! Your feelings are always valid!
+b: Percayai nalurimu! Perasaanmu selalu benar!
 
 `bb({body:"pride"});`
 
-n: GET YOUR HUMAN'S ENERGY BAR TO ZERO
+n: DAPATKAN BATAS ENERGI ANDA KE NOL
 
-n: TO PROTECT THEIR PHYSICAL + SOCIAL + MORAL NEEDS, YOU CAN USE:
+n: UNTUK MELINDUNGI FISIK + SOSIAL + MORAL, KAMU DAPAT MENGGUNAKAN:
 
-n: FEAR OF *BEING HARMED* #harm#
+n: KETAKUTAN *MENJADI TERSAKITI* #harm#
 
-n: FEAR OF *BEING UNLOVED* #alone#
+n: KETAKUTAN *TIDAK DICINTAI* #alone#
 
-n: AND FEAR OF *BEING A BAD PERSON* #bad#
-
+n: DAN KETAKUTAN *MENJADI ORANG BURUK* #bad#
 `Game.OVERRIDE_TEXT_SPEED = 1.25;`
 
-n4: (PRO-TIP: PLAY THE CHOICES THAT PERSONALLY HIT YOUR DEEPEST, DARKEST FEARS!~)
-
+n4: (TIPS: BERMAIN DENGAN PILIHAN DENGAN KEPRIBADIANMU TERDALAM, KETAKUTAN TERGELAP!~)
 h: ...
 
 ```
@@ -381,18 +379,17 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-h: you know what maybe it's time to check my phone.
-
+h: kamu tahu, apa mungkin sudah waktunya mengecek ponsel saya.
 ```
 sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 ```
 
-n: PROTECT YOUR HUMAN
+n: LINDUNGI MANUSIA
 
-n: FROM THE WORLD. FROM OTHER PEOPLE. FROM THEMSELF.
+n: DARI DUNIA. DARI ORANG LAIN. DARI DIRI SENDIRI.
 
-n: GOOD LUCK
+n: SEMOGA BERUNTUNG
 
 (...500)
 
@@ -406,38 +403,38 @@ n: GOOD LUCK
 
 `music('battle', {volume:0.5})`
 
-n: ROUND ONE: *FIGHT!*
+n: RONDE PERTAMA: *MULAI!*
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"});`
 
-h: Huh. Facebook feed says there's a party happening this weekend.
+h: Huh. Umpan Facebook mengatakan ada pesta pada akhir pekan ini.
 
 `bb({eyes:"uncertain"});`
 
-b: Doesn't that weirdo throw a party *every* weekend?
+b: Bukankah aneh ketika mengadakan pesta *setiap* akhir pekan?
 
 `bb({eyes:"uncertain_right"});`
 
-b: What inner void are they trying to fill? They must be deeply messed up inside!
+b: Kepuasan batin apa yang mereka coba isi? Sepertinya dalam diri mereka sangatlah kacau!
 
 `hong({eyes:"surprise"});`
 
-h: Also, I got an invite?
+h: Lalu, Aku mendapat undangan?
 
 `bb({eyes:"fear", mouth:"normal"});`
 
-b: Well then!
+b: Baiklah kalau begitu!
 
-[Say yes, or we'll die from loneliness!](#act1c_loner)
+[Katakan ya, atau kita mati karena kesepian!](#act1c_loner)
 
-[Say no, it's full of poisonous drugs!](#act1c_drugs)
+[Katakan tidak, itu akan penuh dengan obat-obatan!](#act1c_drugs)
 
-[Ignore it, we just make parties sad.](#act1c_sad)
+[Abaikan saja, kita hanya membuat pesta menjadi sedih.](#act1c_sad)
 
 # act1c_loner
 
 {{if _.fifteencigs}}
-b: Fifteen cigarettes a day, human! Fifteen!
+b: Lima belas rokok perhari, manusia! Lima belas!
 {{/if}}
 
 {{if !_.fifteencigs}}
@@ -445,11 +442,11 @@ b: Fifteen cigarettes a day, human! Fifteen!
 {{/if}}
 
 {{if !_.fifteencigs}}
-b: Then no one will show up at our funeral, they'll dump our ashes into the ocean, we get eaten by a whale,
+b: Maka tidak ada seorang pun yang datang ke pemakaman kita, mereka akan membuang abu kita ke laut, dan dimakan oleh ikan puas,
 {{/if}}
 
 {{if !_.fifteencigs}}
-b: and we become WHALE POOP!
+b: dan kita menjadi KOTORAN IKAN PAUS!
 {{/if}}
 
 {{if !_.fifteencigs}} `_.whalepoop = true` {{/if}}
@@ -466,25 +463,25 @@ attack("18p", "alone");
 `bb({eyes:"normal"});`
 
 {{if !_.fifteencigs}}
-b: So yeah we should go to that party!
+b: Jadi ya, kita harus pergi ke pesta itu!
 {{/if}}
 
 {{if _.parasite}}
-b: Just bring the laptop so we can do work, and not be a society-parasite.
+b: Bawa saja laptopnya agar kita bisa bekerja, dan tidak menjadi masyarakat parasit.
 {{/if}}
 
 {{if _.whitebread}}
-b: Just as long as they don't serve WHITE BREAD
+b: Asalkan mereka tidak menyajikan ROTI PUTIH
 {{/if}}
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: GOD. If it'll make you shut up, fine.
+h: TUHAN. Jika itu akan membuatmu diam, baiklah.
 
-h: I'll say yes.
+h: Aku akan mengatakan ya.
 
 {{if _.whalepoop}}
-b: Whale poop, human! Whale poop!
+b: Kotoran paus, manusia! Kotoran ikan paus!
 {{/if}}
 
 `_.partyinvite="yes"`
@@ -496,7 +493,7 @@ b: Whale poop, human! Whale poop!
 `bb({mouth:"small", eyes:"fear"});`
 
 {{if _.whitebread}}
-b: or even worse... WHITE BREAD
+b: atau bahkan lebih buruk.. ROTI PUTIH
 {{/if}}
 
 {{if _.whitebread}}
@@ -504,11 +501,11 @@ b: or even worse... WHITE BREAD
 {{/if}}
 
 {{if _.whitebread}}
-b: We'll overdose on so much meth and white bread they won't be able to fit our fat corpse into the cremation furnace!
+b: Kita akan overdosis sabu dan roti putih, sehingga mereka tidak akan bisa memasukan mayat gemuk ke dalam tungku kremasi!
 {{/if}}
 
 {{if !_.whitebread}}
-b: We'll overdose on so many drugs the undertaker will wonder how our body was *already* pre-embalmed!
+b: Kita akan overdosis pada begitu banyak obat dan mereka akan bertanya tubuh kami *sudah* dibalsem!
 {{/if}}
 
 ```
@@ -519,14 +516,14 @@ attack("18p", "harm");
 (...2500)
 
 {{if _.parasite}}
-b: Besides, can't party, we need to do work or we're a terrible society-parasite!
+b: Selain tidak bisa berpesta, kita membutuhkan pekerjaan agar tidak menjadi masyarakat parasit!
 {{/if}}
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: GOD. If it'll make you shut up, fine.
+h: TUHAN. Jika itu akan membuatmu diam, baiklah.
 
-h: I'll say no.
+h: Aku akan mengatakan tidak.
 
 `_.partyinvite="no"`
 
@@ -539,15 +536,15 @@ h: I'll say no.
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 {{if _.fifteencigs}}
-b: All we ever do is cry in a corner about how loneliness is as deadly as 15 cigarettes a day.
+b: Semua yang kita lakukan hanya menangis di pojokan merenung tentang kesepian sama mematikannya dengan merokok.
 {{/if}}
 
 {{if _.parasite}}
-b: All we ever do at parties is worry about how we should be productive instead.
+b: Semua yang kita lakukan di pesta adalah khawatir tentang bagaimana kita menjadi produktif.
 {{/if}}
 
 {{if _.whitebread}}
-b: All we ever do is worry about how the unhealthy food options are going to kill us.
+b: Semua yang kita lakukan adalah khawatir tentang makanan tidak sehat akan membunuh kita.
 {{/if}}
 
 ```
@@ -555,19 +552,18 @@ bb({mouth:"normal", eyes:"normal"});
 hong({mouth:"neutral", eyes:"lookaway"});
 ```
 
-h: gee i wonder why.
+h: hee aku heran kenapa.
 
 `hong({eyes:"neutral"});`
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-b: So if we go we'll make them feel bad, but if we reject their invite we'll also make them feel bad!
-
+b: Jadi jika kita datang mereka akan merasa tidak nyaman, tetapi jika kita menolak undangan maka rasanya buruk!
 `bb({body:"fear", eyes:"fear"});`
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-b: ALL WE DO IS MAKE PEOPLE FEEL BAD, SO WE SHOULD FEEL BAD
+b: SEMUA YANG KITA LAKUKAN MEMBUAT ORANG MERASA BURUK, JADI KITA HARUS MENJADI BURUK
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -578,9 +574,9 @@ attack("18p", "bad");
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: Ugh. If it'll make you shut up, fine.
+h: Uhh. Jika itu akan membuatmu diam, baiklah.
 
-h: I'll ignore the invite.
+h: Saya akan mengabaikan undangannya.
 
 `_.partyinvite="ignore"`
 
