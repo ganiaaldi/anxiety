@@ -6,9 +6,9 @@ SceneSetup.act1();
 
 (...300)
 
-n: AND THIS IS THE HUMAN'S ANXIETY
+n: DAN INI ADALAH KECEMASAN MANUSIA
 
-n: _YOU_ ARE THE ANXIETY
+n: _KAMU_ ADALAH KECEMASAN ITU
 
 {{if window.localStorage.continueChapter=="replay"}}
 (#act1_replay)
@@ -24,17 +24,17 @@ n: _YOU_ ARE THE ANXIETY
 
 `hong({mouth:"0_neutral", eyes:"0_neutral"})`
 
-h: Oh hey! We're back here again?
+h: Oh hei! Kita kembali kesini lagi?
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: PEKERJAANMU UNTUK MELINDUNGI MANUSIA DARI *BAHAYA*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, REPLAYING THIS GAME IS PUTTING THEM IN *DANGER* RIGHT NOW
+n: FAKTANYA, MEMULAI GAME INI MENEMPATKAN MEREKA KE DALAM *BAHAYA*
 
-n: QUICK, WARN THEM!
+n: CEPAT, PERINGATKAN MEREKA!
 
 ```
 sfx("squeak");
@@ -42,13 +42,13 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Human! Listen, we're in danger! The player...
+b: Manusia! Dengar, kita dalam bahaya! Para pemain...
 
-[...is gonna torture us again!](#act1_replay_torture)
+[...akan menyiksa kita lagi!](#act1_replay_torture)
 
-[...won't find an alternate ending!](#act1_replay_alternate)
+[...tidak akan menemukan akhir cerita lain!](#act1_replay_alternate)
 
-[...will get ludonarrative dissonance!](#act1_replay_dissonance)
+[...akan mendapat disonansi ludonarrative!](#act1_replay_dissonance)
 
 # act1_replay_torture
 
@@ -59,32 +59,32 @@ hong({body:"0_sammich"});
 ```
 
 {{if window.HACK_REPLAY.act1_ending=="fight"}}
-b: They'll make us curl up into a ball and cry!
+b: Mereka akan membuat kita menringkuk menjadi bola dan menangis!
 {{/if}}
 
 {{if window.HACK_REPLAY.act1_ending=="flight"}}
-b: They'll make us kill your phone for giving you a panic attack!
+b: Mereka akan mematikan ponsel anda untuk memberikan serangan panik!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="fight"}}
-b: They'll make us *NOT* punch the party host!
+b: Mereka *Tidak* akan membuat kita  memukul tuan rumah pesta!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="flight"}}
-b: They'll make us punch the Sympathetic Anti-Villain party host!
+b: Mereka akan membuat kita bersimpati memukul penjahat kebenaran!
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="jump"}}
-h: Well at least we might not jump off the roof this ti--
+h: Yah setidaknya mereka tidak menyuruh kita melompat dari atap in--
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="walkaway"}}
-b: THEY'LL MAKE US JUMP OFF THE ROOF.
+b: MEREKA AKAN MEMBUAT KITA MELOMPAT DARI ATAP.
 {{/if}}
 
 `bb({body:"fear"});`
 
-b: ALL THESE NEW TERRIBLE THINGS WILL HAPPEN TO US, AND THEN WE'LL--
+b: SEMUA HAL BARU MENGERIKAN AKAN TERJADI, DAN KEMUDIAN KITA AKAN--
 
 (#act1_replay_end)
 
@@ -96,11 +96,11 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: Sure, the story as a *whole* is the same, but each chapter has two possible endings, plus all the branching dialogue opti--
+h: Tentu, cerita secara *keseluruhan* tetap sama, tetapi setiap bab memiliki dua kemungkinan akhir, ditambah satu opsi dialog bercab--
 
 `bb({body:"fear"});`
 
-b: The player will be disappointed, close this browser tab, delete our software, and then we'll--
+b: Pemain akan merasa kecewa, menutup tab browser ini, menghapus aplikasi, lalu kita akan--
 
 (#act1_replay_end)
 
@@ -112,27 +112,27 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: A lewd-what now?
+h: hal cabul-apa sekarang?
 
 `bb({eyes:"normal"});`
 
-b: The story arc was about how you can *CHOOSE* to build a healthy collaboration with your fear,
+b: Alur cerita tentang bagaimana anda dapat *MEMILIH* untuk membangun kolaborasi dengan ketakutan anda,
 
 `bb({eyes:"normal_right"});`
 
-b: But replaying the game will give the same story, implying your *CHOICES* don't matter,
+b: Tapi mengulang kembali permainan akan memberikan cerita sama, yang berarti *PILIIHAN* tidaklah penting,
 
 `bb({eyes:"narrow_eyebrow"});`
 
-b: Thus showing a contradiction between the game's message and mechanics,
+b: Dengan demikian menunjukan kontradiksi antara pesan dan mekanisme permainan,
 
 `bb({eyes:"fear"});`
 
-b: Thus unraveling the fabric of this narrative universe,
+b: Dengan demikian mengungkap susunan dari naratif dunia ini,
 
 `bb({body:"fear"});`
 
-b: And then we'll--
+b: Lalu kita akan--
 
 (#act1_replay_end)
 
@@ -141,7 +141,7 @@ b: And then we'll--
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: MATIIIIIIIIIIIIIIIIII
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -164,13 +164,13 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-h: Okay let's get back into character.
+h: Oke mari kita kembali ke karakter.
 
 ```
 Game.clearText();
 ```
 
-n4: (LET _YOUR_ ANXIETY BLAH BLAH BLAH MOST SIMILAR TO WHAT _YOUR_ FEAR BLAH BLAH YOU KNOW THE DRILL)
+n4: (BIARKAN KECEMASAN _ANDA_ BLAH BLAH MIRIP DENGAN KETAKUTAN _ANDA_ BLAH BLAH ANDA MENGETAHUI LUBANGNYA)
 
 ```
 sfx("squeak");
@@ -186,17 +186,17 @@ bb({body:"squeeze"});
 
 `hong({mouth:"0_neutral", eyes:"0_annoyed"})`
 
-h: Oh good, my wolf's back. Faaaaantastic.
+h: Ya Tuhan, serigalaku kembali. Faaaaanntastis.
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: PEKERJAAN ANDA ADALAH MENJAGA MANUSIA DARI *BAHAYA*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, THAT SANDWICH IS PUTTING THEM IN *DANGER* RIGHT NOW
+n: FAKTANYA, ROTI LAPIS ITU MENEMPATKAN MEREKA KE DALAM *BAHAYA* SAAT INI
 
-n: QUICK, WARN THEM!
+n: CEPAT, PERINGATKAN MEREKA!
 
 ```
 sfx("squeak");
@@ -204,21 +204,21 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Human! Listen, we're in danger! The danger is...
+b: Manusia! Dengar, kita dalam bahaya! Bahayanya adalah..
 
 `bb({body:"squeeze"})`
 
-n4: (LET _YOUR_ ANXIETY COME OUT TO PLAY! PICK WHAT'S MOST SIMILAR TO WHAT _YOUR_ FEAR TELLS YOU)
+n4: (BIARKAN KECEMASAN _ANDA_ KELUAR UNTUK BERMAIN! PILIH YANG PALING SAMA DENGAN KETAKUTAN _ANDA_)
 
 (#act1_normal_choice)
 
 # act1_normal_choice
 
-[We're eating alone for lunch! Again!](#act1a_alone) `bb({body:"squeeze_talk"})`
+[Kita makan sendiri untuk makan siang! Lagi!](#act1a_alone) `bb({body:"squeeze_talk"})`
 
-[We're not productive while eating!](#act1a_productive) `bb({body:"squeeze_talk"})`
+[Kita tidak produktif ketika makan!](#act1a_productive) `bb({body:"squeeze_talk"})`
 
-[That white bread's bad for us!](#act1a_bread) `bb({body:"squeeze_talk"})`
+[Roti putih itu buruk untuk kita!](#act1a_bread) `bb({body:"squeeze_talk"})`
 
 # act1a_alone
 
@@ -227,7 +227,7 @@ bb({body:"normal", mouth:"small", eyes:"narrow"});
 hong({body:"0_sammich"});
 ```
 
-b: Don't you know loneliness is associated with premature death as much as smoking 15 cigarettes a day?-
+b: Apa kamu tahu bahwa kesepian dikaitkan dengan kematian dini dikarenakan merokok sebanyak 15 batang perhari?-
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
@@ -237,17 +237,17 @@ b: (Holt-Lunstad 2010, PLoS Medicine)
 
 `hong({eyes:"0_annoyed"})`
 
-h: Um, thanks for citing your sources but--
+h: Hm, terimakasih telah mengutip dari sumber tetapi--
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
 `bb({body:"fear", mouth:"normal", eyes:"fear"})`
 
-b: Which means if we don't hang out with someone *right now* we're gonna-
+b: Yang berarti jika kita tidak bergaul dengan seseorang *sekarang* kita akan-
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: MATIIIIIIIIIIIIIIIIII
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -260,7 +260,7 @@ publish("hp_show");
 
 `_.fifteencigs = true`
 
-n: YOU USED *FEAR OF BEING UNLOVED*
+n: KAMU MENGGUNAKAN *KETAKUTAN TIDAK DICINTAI*
 
 (#act1b)
 
@@ -271,27 +271,26 @@ bb({body:"normal", mouth:"small", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-b: Whip out your laptop and do some work right now!
-
+b: Keluarkan laptopmu dan lakukan beberapa pekerjaan sekarang!
 `hong({eyes:"0_annoyed"})`
 
-h: Um, I'd rather not get crumbs in my keyboa--
+h: Hm, aku tidak suka mendapat remah-remah di keybo--
 
 ```
 bb({mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: If we're not contributing to the body of society then we're a society-parasite!
+b: Jika kita tidak berkontribusi pada masyarakat maka kita adalah parasit masyarakat!
 
-b: The society-body will go to the society-doctor for medication to kill their society-parasites then we'll--
+b: Badan masyarakat akan pergi ke dokter untuk pengobatan guna membunuh parasit masyarakat, lalu kita akan--
 
 ```
 bb({body:"panic", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: MATIIIIIIIIIIIIIIIIII
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -304,7 +303,7 @@ publish("hp_show");
 
 `_.parasite = true`
 
-n: YOU USED *FEAR OF BEING A BAD PERSON*
+n: KAMU MENGGUNAKAN *KETAKUTAN MENJADI ORANG JAHAT*
 
 (#act1b)
 
@@ -315,18 +314,17 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich", eyes:"0_annoyed"});
 ```
 
-h: Have those studies been replicat--
+h: Apakah penelitian itu telah direplika--
 
 ```
 bb({body:"fear", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Processed wheat will spike our blood sugar so they'll have to amputate all our limbs and then we'll-
-
+b: Gandum olahan meningkatkan gula darah kita, sehingga mereka harus mengamputasi anggota tubuh kita dan kita akan--
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: MATIIIIIIIIIIIIIIIIII
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -339,7 +337,7 @@ publish("hp_show");
 
 `_.whitebread = true`
 
-n: YOU USED *FEAR OF BEING HARMED*
+n: KAMU MENGGUNAKAN *KETAKUTAN MENJADI ORANG TERSAKITI*
 
 (#act1b)
 
