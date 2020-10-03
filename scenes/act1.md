@@ -304,7 +304,7 @@ publish("hp_show");
 
 `_.parasite = true`
 
-n: KAMU MENGGUNAKAN *KETAKUTAN MENJADI ORANG BURUK*
+n: KAMU MENGGUNAKAN *KETAKUTAN MENJADI ORANG YANG BURUK*
 
 (#act1b)
 
@@ -369,7 +369,7 @@ n: DAN KETAKUTAN *MENJADI ORANG BURUK* #bad#
 
 `Game.OVERRIDE_TEXT_SPEED = 1.25;`
 
-n4: (TIPS: BERMAIN DENGAN PILIHAN DENGAN KEPRIBADIANMU TERDALAM, KETAKUTAN TERGELAP!~)
+n4: (TIPS: BERMAIN DENGAN PILIHAN SESUAI KEPRIBADIANMU TERDALAM, KETAKUTAN TERGELAP!~)
 
 h: ...
 
@@ -428,7 +428,7 @@ h: Lalu, Aku mendapat undangan?
 
 `bb({eyes:"fear", mouth:"normal"});`
 
-b: Baiklah kalau begitu!
+b: Baik kalau begitu!
 
 [Katakan ya, atau kita mati karena kesepian!](#act1c_loner)
 
@@ -569,7 +569,7 @@ b: Jadi jika kita datang mereka akan merasa tidak nyaman, tetapi jika kita menol
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-b: SEMUA YANG KITA LAKUKAN MEMBUAT ORANG MERASA BURUK, JADI KITA HARUS MENJADI BURUK
+b: SEMUA YANG KITA LAKUKAN MEMBUAT ORANG MERASA BURUK, JADI KITA HARUS MENJADI LEBIH BURUK
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -892,7 +892,7 @@ h: Mungkin seharusnya aku datang ke undangan?
 
 [Ubah jawaban kita? Seperti orang brengsek?!](#act1e_no_dontchange)
 
-[Ubah jawaban kita? Jangan mati sendirian](#act1e_no_changetoyes)
+[Ubah jawaban kita? Jangan mati sendirian?!](#act1e_no_changetoyes)
 
 {{if _.subtweet}}
 [Yahh mereka benar-benar melakukan tweets kita.](#act1e_ignore_subtweet)
@@ -1465,7 +1465,7 @@ sfx("rustle2");
 hong({body:"0_sammich", eyes:"0_annoyed", mouth:"0_neutral"});
 ```
 
-h: Sekarang izinkan aku untuk memakan sandwich enak ini dengan kenikmatan ^sialan^ ini.
+h: Sekarang izinkan aku untuk memakan sandwich enak dengan kenikmatan ^sialan^ ini.
 
 `hong({body:"2_sammich_eat"});`
 
@@ -1598,7 +1598,7 @@ n: *HABISI MEREKA*
 
 `bb({mouth:"normal", eyes:"narrow"})`
 
-b: Ponselmu memberikan serangan panik!
+b: Ponselmu memberikan serangan kepanikan!
 
 `bb({eyes:"anger"})`
 
@@ -1636,6 +1636,7 @@ Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
 b: Lakukan seperti armadillo! Meringkuk menjadi bola untuk pertahanan diri!
+
 ```
 Game.OVERRIDE_TEXT_SPEED = 2.5;
 bb({body:"flail"});
