@@ -1,6 +1,6 @@
 ![](https://ncase.me/anxiety/sharing/banner.png)
 
-# [Mainkan sebuah permainan cerita interaktif disini!](https://ganiaaldi.github.io/anxiety/)
+# [Mainkan permainan cerita interaktif disini!](https://ganiaaldi.github.io/anxiety/)
 
 ## Domain Publik
 
@@ -143,7 +143,7 @@ Seperti yang anda lihat, anda *tidak bisa* menterjemahkan semuanya.
 
 * Apapun dengan tanda seperti ini ``` `code({with:"backticks",like:"this"});` ```. This is the code that runs between dialogue lines.
 * Apapun dengan tanda seperti ini ``` {{ these brackets either }} ```. Ini memungkinkan perubahan dalam dialog berdasarkan pilihan sebelumnya (lihat contoh di atas).
-* * Setiap baris yang dimulai dengan `` #  ``. Itu merupakan nama bagian (section).
+* Setiap baris yang dimulai dengan `` #  ``. Itu merupakan nama bagian (section).
 * Bagian dalam tanda kurung *bulat* ( dan ) `[words words words](#section_name)`. Itu merupakan nama bagian yang akan terbuka ketika memilih dialog.
 
 **BACA SARAN INI:**
