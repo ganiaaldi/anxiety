@@ -8,7 +8,7 @@ SceneSetup.act1();
 
 n: DAN INI ADALAH KECEMASAN MANUSIA
 
-n: _KAMU_ ADALAH KECEMASAN ITU
+n: _KAMU_ ADALAH SANG KECEMASAN ITU
 
 {{if window.localStorage.continueChapter=="replay"}}
 (#act1_replay)
@@ -186,7 +186,7 @@ bb({body:"squeeze"});
 
 `hong({mouth:"0_neutral", eyes:"0_annoyed"})`
 
-h: Ya Tuhan, serigalaku kembali. Faaaaanntastis.
+h: Ya Tuhan, serigalaku kembali. Fannnnntastis.
 
 `hong({eyes:"0_neutral"})`
 
@@ -208,7 +208,7 @@ b: Manusia! Dengar, kita dalam bahaya! Bahayanya adalah..
 
 `bb({body:"squeeze"})`
 
-n4: BIARKAN _KECEMASANMU_ KELUAR UNTUK BERMAIN! PILIH YANG PALING SAMA DENGAN _KETAKUTANMU_
+n4: BIARKAN _KECEMASANMU_ KELUAR UNTUK BERMAIN! PILIH YANG PALING COCOK DENGAN _KETAKUTANMU_
 
 (#act1_normal_choice)
 
@@ -1231,7 +1231,7 @@ bb({mouth:"normal"});
 Game.FORCE_TEXT_DURATION = 2400;
 ```
 
-b: ♫ I wanna be, the ^slut^ti-est-
+b: ♫ Aku ingin menjadi, seorang ^pelacur^-
 
 (...500)
 
@@ -1240,7 +1240,7 @@ bb({eyes:"narrow", mouth:"small"});
 Game.FORCE_TEXT_DURATION = 2100;
 ```
 
-b: ♫ Like no one ever was-
+b: ♫ Seperti tidak ada yang lain-
 
 (...1500)
 
@@ -1249,7 +1249,7 @@ bb({eyes:"pretty"});
 Game.FORCE_TEXT_DURATION = 2300;
 ```
 
-b: ♫ Thighs n' ^ass^, voluptuous breast-
+b: ♫ Paha dan' ^pantat^, dada yang menggairahkan-
 
 (...500)
 
@@ -1258,7 +1258,7 @@ bb({eyes:"fear", mouth:"normal"});
 Game.FORCE_TEXT_DURATION = 2000;
 ```
 
-b: ♫ with sweaty ^dick^ and balls!-
+b: ♫ dengan keringat ^titid^ dan bolanya!-
 
 (...1000)
 
@@ -1267,7 +1267,7 @@ bb({eyes:"smile", mouth:"smile"});
 Game.FORCE_TEXT_DURATION = 1000;
 ```
 
-b: ♫ PERVY-MON! GOTTA CA-
+b: ♫ BOKEP-MON! HARUS TANG-
 
 ```
 Game.FORCE_CANT_SKIP = false;
@@ -1516,7 +1516,7 @@ bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
-b: AHHHH KITA AKAN AAAAAAHHHHHHH
+b: AHHHH KITA AKAN MATI AAAHHHHHH
 
 ```
 hong({body:"3_defeated1"});
@@ -1590,9 +1590,9 @@ n: PILIH GERAKAN PENUTUP
 
 n: *HABISI MEREKA*
 
-[{FIGHT: Menghukum stres ponselmu!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
+[{A: Menghukum stres ponselmu!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[{FLIGHT: Meringkuk seperti bola dan menangis!}](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
+[{B: Meringkuk seperti bola dan menangis!}](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act1i_phone
 
