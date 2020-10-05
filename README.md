@@ -1,6 +1,6 @@
 ![](https://ncase.me/anxiety/sharing/banner.png)
 
-# [Mainkan permainan cerita interaktif disini!](https://ganiaaldi.github.io/anxiety/)
+# [Mainkan cerita interaktif disini!](https://ganiaaldi.github.io/anxiety/)
 
 ## Domain Publik
 
@@ -15,7 +15,7 @@ Nicky Case dan Monplaisir dengan ini mendedikasikan semua pekerjaan mereka untuk
 **Q:** Dapatkah saya memposting game ini di situs lain?    
 **A:** Mungkin saja. Meskipun hak cipta sepenuhnya legal, banyak situs yang memiliki kebijakannya sendiri untuk tidak memposting karya publik domain/projek terbuka orang lain *tanpa* modifikasi yang signifikan. (Tetapi jika anda yang mempunyai situs itu, itu berarti diperbolehkan)
 
-**Q:** Bisakah saya mengubah game ini menjadi simulasi kencan antara manusia dan serigala?
+**Q:** Bisakah saya mengubah game ini menjadi simulasi kencan antara manusia dan serigala?<br>
 **A:** waduh
 
 
@@ -187,8 +187,8 @@ Jika Anda mengarahkan kursor ke kotak abu-abu di sebelah kiri, Anda akan melihat
 
 ### Langkah 5:
 
-Commit, Push, dan Pull Request hasil terjemahan anda ke *repository* ini dengan catatan commit dan pull request yang jelas.
+Commit, Push, dan Pull Request hasil terjemahan anda ke *repository* ini dengan catatan pull request yang jelas.
 
-Selamat Menerjemahkan dengan kecemasan anda!
+Selamat menerjemahkan dengan kecemasan anda!
 
 
