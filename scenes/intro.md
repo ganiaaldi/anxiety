@@ -42,7 +42,7 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 [Pilih Bab Cerita](#chapter-select) `Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
-[(content notes)](#intro-play-button) `Game.OVERRIDE_CHOICE_LINE=true; publish('show_cn');`
+[(catatan konten)](#intro-play-button) `Game.OVERRIDE_CHOICE_LINE=true; publish('show_cn');`
 
 # chapter-select
 
@@ -92,7 +92,7 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 
 `clearText()`
 
-n3: Selamat datang! Ini bukanlah sebuah "permainan," melainkan sebuah cerita interaktif. Semoga kamu menyukainnya!
+n3: Selamat datang! Ini bukanlah sebuah "permainan", melainkan sebuah cerita interaktif. Semoga kamu menyukainnya!
 
 n3: Jadi sebelum kita memulai, bagaimana *kamu* ingin membaca?
 
