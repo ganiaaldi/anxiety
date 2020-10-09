@@ -1590,9 +1590,9 @@ n: PILIH GERAKAN PENUTUP
 
 n: *HABISI MEREKA*
 
-[{A: Menghukum stres ponselmu!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
+[{HABISI: Menghukum stres ponselmu!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[{B: Meringkuk seperti bola dan menangis!}](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
+[{PERGI: Meringkuk seperti bola dan menangis!}](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act1i_phone
 
