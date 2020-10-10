@@ -300,7 +300,7 @@ publish("hp_show");
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-n: ROUND TWO: *FIGHT!*
+n: RONDE DUA: *MULAI!*
 
 [Oh tidak mereka semua membenci kita!](#act2a_social)
 
@@ -358,7 +358,7 @@ b: Pada akhirnya, apa yang bisa kita lakukan untuk hal yang benar-benar penting?
 
 `bb({body:"normal", eyes:"sad"})`
 
-b: Berkontribusi untuk kemanusiaan? Di jalan Ozymandias semua karya besar membusuk . Cinta? Kematian akan selalu melakukan bagiannya.
+b: Berkontribusi untuk kemanusiaan? Di jalan Ozymandias semua karya besar membusuk. Cinta? Kematian akan selalu melakukan bagiannya.
 
 `bb({eyes:"sad_r"})`
 
@@ -447,7 +447,7 @@ b: Kamu akan menciptakan wabah mematikan dari SINDROM GUMPALAN KESEDIHAN
 
 `bb({eyes:"suspect", body:"normal", mouth:"normal"})`
 
-b: Kita harus keluar dari sini dan mengarantina diri kita sendiri selamanya di ruangan kecil ini, dengan Netflix dan pengiriman makanan!
+b: Kita harus keluar dari sini dan mengarantina diri kita sendiri selamanya di ruangan kecil, dengan Netflix dan pengiriman makanan!
 
 ```
 _.a2_second_danger = 'netflix';
@@ -858,7 +858,7 @@ b: AHH KITA RUSAK! SANGAT RUSAK SANGAT RUSAK--
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: Aku tidak bersikap tidak rasional. Orang-orang *melakukan* semangkuk obat-obatan. Itu adalah hal yang sebenarnya terjadi.
+b: Aku tidak bersikap tidak rasional. Orang-orang *menelan* semangkuk obat-obatan. Itu adalah hal yang sebenarnya terjadi.
 
 `bb({eyes:"suspect"})`
 
@@ -898,7 +898,7 @@ attack("20p", _.a2_attack_3);
 
 (...1001)
 
-h: BAN^SAAAT^!
+h: BANG^SAAAT^!
 
 h: B^ANGG^SAT B^ANG^-B^ANG^SAT *B^ANGSATT^*
 
@@ -1014,6 +1014,7 @@ b: Kamu mengurangi individu & budaya kompleks menjadi kartu ucapan! Itu adalah s
 `bb({body:"scream_b_1"})`
 
 b: BERHENTI MENJADI RASIS KAU BRENGSEK BERMATA ANEH
+
 ```
 hong({body:"attacked"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -1231,7 +1232,7 @@ publish("act2",["party_hunter",4]);
 publish("act2",["party_hong",14]);
 ```
 
-r: Kamu, uh, bergumam tentang jaketmu {{_.a2_hoodie_callback}} atau sesuatu.
+r: Kamu, uh, bergumam tentang jaketmu atau sesuatu.
 
 ```
 publish("act2",["party_hunter",13]);
@@ -1280,7 +1281,7 @@ r: Dengar: aku tahu bagaimana rasanya memiliki hewan itu di kepala Anda.
 publish("act2",["party_hunter",8]);
 ```
 
-r: Kami *semua* melakukannya. Itu sebabnya aku mengadakan pesta ini setiap akhir pekan, untuk melupakan kekhawatiran kita, lupakan hewan itu.
+r: Kami *semua* mempunyainya. Itu sebabnya aku mengadakan pesta ini setiap akhir pekan, untuk melupakan kekhawatiran kita, lupakan hewan itu.
 
 ```
 publish("act2",["party_hunter",9]);
@@ -1352,19 +1353,19 @@ publish("hp_show");
 
 # act2g_1
 
-b: O--
+b: YA--
 
 (#act2g)
 
 # act2g_2
 
-b: T--
+b: IN--
 
 (#act2g)
 
 # act2g_3
 
-b: D--
+b: JAN--
 
 (#act2g)
 
@@ -1404,7 +1405,7 @@ b: Ini *seben*--
 
 # act2h_opt2
 
-b: Juga, pu--
+b: Juga, mer--
 
 (#act2h)
 
@@ -1629,7 +1630,7 @@ publish("act2",["dum",5]);
 music('party1', {volume:0.6, fade:6});
 ```
 
-r: sangat *kusut*.
+r: sangat *kacau*.
 
 r: Aku menyukainya. Datang ke pestaku akhir pekan depan, manis.
 
@@ -1715,9 +1716,9 @@ sfx("hit");
 
 (...1000)
 
-h: Aku akan kembali ke pesta akhir pekan depan.
+h: Minggu depan aku akan kembali ke pesta.
 
-h: Selanjutnya kita bertarung, aku tidak begitu saja *membunuhmu*...
+h: Selanjutnya saat kita bertarung, aku tidak begitu saja *membunuhmu*...
 
 h: Aku akan pergi *membunuhmu* ^sial^an.
 
