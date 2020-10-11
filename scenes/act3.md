@@ -6,7 +6,7 @@ Game.WORDS_HEIGHT_BOTTOM = 205;
 sfx("cheers");
 ```
 
-r: Cheers!
+r: Bersulang!
 
 ```
 publish("act3",["roofhunter",1]);
@@ -23,41 +23,41 @@ publish("act3",["roofhunter",3]);
 publish("act3",["roofhong",3]);
 ```
 
-h2: *Ah* that hits the spot.
+h2: *Ah* itu tepat sasaran.
 
 ```
 publish("act3",["roofhunter",2]);
 publish("act3",["roofhong",2]);
 ```
 
-r: You know, kid...
+r: Kamu tahu, bocah...
 
 ```
 publish("act3",["roofhunter",3]);
 publish("act3",["roofhong",6]);
 ```
 
-h2: Specifically, the spots hit are my left and right amygdala.
+h2: Khususnya, sasaran itu mengenai amigdala kanan dan kiriku.
 
 ```
 publish("act3",["roofhunter",8]);
 publish("act3",["roofhong",5]);
 ```
 
-r: You remind me of myself when I was younger. Back when I was tormented by the animal in my head.
+r: Kamu mengingatkanku pada diriku ketika aku masih muda. Dulu ketika aku disiksa oleh hewan yang ada di kepalaku.
 
 ```
 publish("act3",["roofhunter",9]);
 publish("act3",["roofhong",2]);
 ```
 
-r: I'm so grateful I can pay it forward, and help you kill the beast the way I killed mine.
+r: Aku sangat bersyukur aku bisa membayarnya, dan membantumu membunuh binatang itu seperti aku membunuh binatang milikku.
 
 ```
 publish("act3",["roofhunter",2]);
 ```
 
-r: Hey, quick question: truth or da--
+r: Hei, pertanyaan cepat: kebenaran atau tan--
 
 ```
 publish("act3",["roofhunter",3]);
@@ -65,7 +65,7 @@ publish("act3",["roofhong",7]);
 publish("act3-alpha", ["dizzyhong",0]);
 ```
 
-h2: DARE!
+h2: Tantangan!
 
 ```
 publish("act3-alpha", ["dizzyhong",1]);
@@ -73,14 +73,14 @@ publish("act3",["roofhunter",10]);
 publish("act3",["roofhong",2]);
 ```
 
-r: Haha! Good.
+r: Haha! Bagus.
 
 ```
 publish("act3",["roofhunter",21]);
 publish("act3",["roofhong",4]);
 ```
 
-r: Ok. You see that baby-blue swimming pool down there?
+r: Oke. Kamu lihat kolam renang berwarna biru muda di bawah sana?
 
 ```
 publish("act3-alpha", ["dizzyhong",0]);
@@ -88,14 +88,14 @@ publish("act3",["roofhunter",11]);
 publish("act3",["roofhong",9]);
 ```
 
-h2: Yeah? Six floors down?
+h2: Ya? Enam lantai di bawah?
 
 ```
 publish("act3",["roofhunter",10]);
 publish("act3",["roofhong",8]);
 ```
 
-r: Jump in.
+r: Loncatlah.
 
 ```
 publish("act3",["roofhunter",11]);
@@ -108,39 +108,39 @@ h2: ...
 publish("act3",["roofhong",11]);
 ```
 
-h2: Wait, what?
+h2: Sebentar, apa?
 
 ```
 publish("act3",["roofhong",10]);
 publish("act3",["roofhunter",2]);
 ```
 
-r: The animal's started whining, hasn't it?
+r: Hewan itu mulai merengek, bukan?
 
 ```
 publish("act3",["roofhunter",23]);
 ```
 
-r: *Oh nooooo it's dangerous, don't do iiiiit.*
+r: *Oh tidaakkkkk itu berbahaya, jangan lakukan ituuu.*
 
 ```
 publish("act3",["roofhunter",22]);
 ```
 
-r: But that's exactly why we need death-defying thrills! Party hard! Carpe diem! Snort coke off a hooker's ^ass^, #YOLO!
+r: Tapi itulah mengapa kita membutuhkan sensasi yang menantang maut! Pesta pora! Hari istimewa! Dengusan bersoda dari pelacur ^pantat^, #YOLO!
 
 ```
 publish("act3",["roofhunter",10]);
 ```
 
-r: Show that animal we don't give two *^dick^s* about its ^bitch^ing! Jump in.
+r: Tunjukkan bahwa hewan kita tidak memberikan dua *^titit^* tentang ^jalang^nya! Terjunlah.
 
 ```
 publish("act3",["roofhunter",11]);
 publish("act3",["roofhong",13]);
 ```
 
-h2: Uh, but sometimes, um... fear has a point...
+h2: Eh, tapi kadang, um ... ketakutan ada benarnya ..
 
 ```
 publish("act3",["roofhunter",5]);
@@ -156,43 +156,43 @@ publish("act3",["roofhunter",6]);
 publish("act3",["dd",1]);
 ```
 
-r: I'm sorry, did you fall for that McMindfulness propaganda that claims feeling bad is *good?*
+r: Maaf, apakah kamu terpesona oleh propaganda McMindfulness yang mengklaim bahwa perasaan buruk itu *baik?*
 
 ```
 publish("act3",["roofhunter",17]);
 ```
 
-r: The ^assholes^ who run this world give the rest of *us* anxiety and depression,
+r: Para ^bajingan^ yang menjalankan dunia ini membuat *kita* kecemasan dan depresi lainnya,
 
 ```
 publish("act3",["roofhunter",18]);
 ```
 
-r: Then make TED Talks to tell us to "accept" being ^fucked^ over, and "embrace" that sadistic demon in our heads!
+r: Kemudian membuat TED Talks untuk memberitahu kita agar "menerima" menjadi kacau, dan "merangkul" iblis itu di kepala kita!
 
 ```
 publish("act3",["roofhunter",6]);
 ```
 
-r: Kid, I know that *you* know that animal *hurts* people like us. It *tortures* people like us.
+r: Bocah, Aku mengetahui *kamu* tahu binatang itu *menyakiti* orang seperti kita. Itu *menyiksa* orang seperti kita.
 
 ```
 publish("act3",["roofhunter",19]);
 ```
 
-r: It's not our friend. It's a rabid beast, which either needs to be *tranquilized*,
+r: Itu bukan teman kita. Itu adalah binatang buas, yang perlu *ditenangkan*,
 
 ```
 publish("act3",["roofhunter",20]);
 ```
 
-r: Or have a *bullet put in its skull*.
+r: Atau aku dapat *memasukan peluru ke tengkoraknya*.
 
 ```
 publish("act3",["roofhunter",27]);
 ```
 
-r: Otherwise, you're going to let it win.
+r: Jika tidak, kamu akan membiarkannya menang.
 
 ```
 publish("act3",["roofhunter",31]);
@@ -200,7 +200,7 @@ publish("act3",["roofhong",14]);
 publish("act3",["dd",2]);
 ```
 
-h2: No. You're wrong.
+h2: Tidak. Kamu salah.
 
 ```
 publish("act3",["roofhunter",13]);
@@ -210,7 +210,7 @@ music('battle_dark', {volume:1.0}, function(){
 });
 ```
 
-h2: I'm not going to let it win.
+h2: Aku tidak akan membiarkannya menang.
 
 ```
 publish("act3",["roofhunter",25]);
@@ -219,7 +219,7 @@ publish("act3-alpha", ["transition",1]);
 publish("act3",["dd",6]);
 ```
 
-r: ^Fuck^ yeah! I believe in you, babe! Kill it! <3
+r: Ya ^Sialan^! Aku percaya padamu sayang! Bunuh dia! <3
 
 (#act3a)
 
@@ -240,13 +240,13 @@ _.act3_bb_body = 1;
 publish("hp_show");
 ```
 
-b: no no no no no no
+b: tidak, tidak, tidak, tidak, tidak
 
-n: THIS CHAPTER HAS TWO POSSIBLE ENDINGS. ONE IS *VERY, VERY BAD.*
+n: BAB INI HANYA MEMILIKI DUA KEMUNGKINAN AKHIR. SALAH SATUNYA *SANGAT, SANGAT BURUK.*
 
-b: NO NO NO NO NO NO NO NO NO NO NO NO NO NO
+b: TIDAK TIDAK TIDAK TIDAK TIDAK TIDAK TIDAK
 
-n: CHOOSE WISELY. PROTECT YOUR HUMAN
+n: PILIH DENGAN BIJAKSANA. LINDUNGI KEMANUSIANMU
 
 `bb({ eyes:"oh_crap", mouth:"normal_talk", MOUTH_LOCK:true });`
 
@@ -254,24 +254,24 @@ b: AAAAAAAAAAAAAAAAAA
 
 `bb({ mouth:"normal" });`
 
-n: GOOD LUCK
+n: SEMOGA BERUNTUNG
 
 ```
 Game.clearText();
 bb({ eyes:"start" });
 ```
 
-[Human, you could actually DIE here!](#act3a_harm) `Game.OVERRIDE_CHOICE_LINE=true`
+[Manusia, kamu sebenarnya bisa MATI di sini!](#act3a_harm) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[This is stupid and self-destructive!](#act3a_bad) `Game.OVERRIDE_CHOICE_LINE=true`
+[Ini bodoh dan menghancurkan diri sendiri!](#act3a_bad) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[These sickos aren't really your friends!](#act3a_alone) `Game.OVERRIDE_CHOICE_LINE=true`
+[Orang sakit ini sebenarnya bukan temanmu!](#act3a_alone) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act3a_harm
 
 `bb({ MOUTH_LOCK:true, mouth:"normal_talk" });`
 
-b: H--
+b: M--
 
 (#act3a_after)
 
@@ -279,7 +279,7 @@ b: H--
 
 `bb({ MOUTH_LOCK:true, mouth:"normal_talk" });`
 
-b: T--
+b: O--
 
 (#act3a_after)
 
@@ -287,7 +287,7 @@ b: T--
 
 `bb({ MOUTH_LOCK:true, mouth:"normal_talk" });`
 
-b: T--
+b: I--
 
 (#act3a_after)
 
@@ -307,9 +307,9 @@ hong({ body:"normal" });
 bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 ```
 
-h: You know, I might've believed you... if you hadn't tried that a zillion times before.
+h: Kamu tahu, aku mungkin mempercaimu... jika kamu belum mencobanya jutaan kali sebelumnya.
 
-h: You're the wolf who cried wolf.
+h: Kamu adalah serigala yang menangisi serigala.
 
 ```
 bb({ eyes:"sad" });
@@ -354,41 +354,41 @@ hong({ body:"normal" });
 bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 ```
 
-h: You tried that too.
+h: Kamu mencobanya juga.
 
-b: human, please...
+b: Manusia, tolong...
 
 `hong({ eyes:"look_right" });`
 
-h: Oh I'm *sorry* Big Pharma doesn't approve of my self-medication.
+h: Oh aku *minta maaf* Farmasi Besar tidak menyetujui pengobatan sendiri.
 
-h: Look ^asshole^, we *all* have a way of shutting you the ^fuck^ up.
+h: Lihat ^brengsek^, kami *semua* punya cara untuk membungkammu ^brengsek^.
 
 `hong({ body:"look_up", eyes:"look_up" });`
 
-h: Some people throw themselves into work.
+h: Beberapa orang menceburkan diri ke dalam pekerjaan.
 
 `hong({ body:"look_down", eyes:"look_down" });`
 
-h: Some people throw themselves into sex, drugs, and refreshing their Facebook feed.
+h:  Beberapa orang melakukan seks, narkoba, dan memperbarui feed Facebook mereka.
 
 `hong({ body:"normal", eyes:"look_right" });`
 
-h: Some people throw themselves into other people. 
+h: Beberapa orang menceburkan diri ke orang lain.
 
 `hong({ eyes:"angry" });`
 
-h: I'm going to throw myself into that swimming pool.
+h: Aku akan menceburkan diri ke kolam renang itu.
 
-[You're drunk and it's SIX FLOORS DOWN](#act3_bad_1_harm)
+[Kamu mabuk dan itu ENAM LANTAI KEBAWAH](#act3_bad_1_harm)
 
-[Dang it, this is the thanks I get?!](#act3_bad_1_insult) `bb({eyes:"angry"});`
+[Sial, ini ucapan terima kasih yang kudapat?!](#act3_bad_1_insult) `bb({eyes:"angry"});`
 
-[Okay, I admit it. I messed up.](#act3_good_1) `bb({mouth:"sorry", eyes:"sorry_down"});`
+[Oke, Aku akui. Aku mengacaukannya.](#act3_good_1) `bb({mouth:"sorry", eyes:"sorry_down"});`
 
 # act3_bad_1_harm
 
-b: Even if you land in the water, the surface tension will crack your ribs and give you a concussion *at the least!*
+b: Bahkan jika kamu mendarat di air, tegangan permukaannya akan mematahkan tulang rusukmu dan menyebabkanmu *setidaknya gegar otak!*
 
 h: Eh.
 
@@ -406,7 +406,7 @@ hong({ body:"normal", mouth:"angry", eyes:"angry" });
 bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 ```
 
-h: I saw a Russian guy do this on YouTube once.
+h: Saya pernah melihat seorang pria Rusia melakukan ini di YouTube.
 
 (#act3_bad_2)
 
@@ -414,13 +414,13 @@ h: I saw a Russian guy do this on YouTube once.
 
 `hong({ eyes:"look_right" });`
 
-h: I- Excuse me, the *thanks?*
+h: A- Permisi, ber*terima kasih?*
 
 `bb({ eyes:"angry" });`
 
-b: This is exactly why I *exist!* Because humans can't be trusted to protect themselves!
+b: Inilah tepatnya mengapa aku *ada!* Karena manusia tidak dapat dipercaya untuk melindungi diri mereka sendiri!
 
-b: I've been trying to protect your stupid butt all my life and now you're just going t--
+b: Aku sudah berusaha melindungi pantat bodohmu sepanjang hidupku dan sekarang kamu hanya akan--
 
 ```
 hong({body:"drink"});
@@ -457,26 +457,26 @@ bb({ eyes:"sorry"});
 hong({ body:"yell_1", mouth:"yell", eyes:"blank" });
 ```
 
-h: Oh WOW is that the biggest *^fuck^ing* understatement of the century!
+h: Oh WOW itu adalah pernyataan *^sial^an* terbesar abad ini!
 
 `hong({ body:"yell_2" });`
 
-h: Yeah, you rotting pile of blood-coated ^shit^! You messed the ^fuck^ up!
+h: Yah, kau tumpukan busuk berlumur darah ^sialan^! Kau mengacaukannya ^sialan^!
 
 `hong({ body:"normal", mouth:"angry", eyes:"angry" });`
 
-h: Any other remarks, Captain Obvious?
+h: Ada komentar lain, Kapten Jelas?
 
-[But revenge on me isn't the answer!](#act3_good_1_fail_revenge) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
+[Tapi balas dendam padaku bukanlah jawabannya!](#act3_good_1_fail_revenge) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
 
-[But this time I'm *actually* right!](#act3_good_1_fail_harm) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
+[Tapi kali ini aku *memang* benar!](#act3_good_1_fail_harm) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
 
-[I've hurt you.](#act3_good_2a)
+[Aku telah menyakitimu.](#act3_good_2a)
 
 
 # act3_good_1_fail_revenge
 
-b: You need to have a healthier relationship with your emotions, rather than drown them wi--
+b: Kamu perlu memiliki hubungan yang lebih sehat dengan emosimu, daripada menenggelamkannya deng--
 
 ```
 hong({body:"drink"});
@@ -498,7 +498,7 @@ bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 
 # act3_good_1_fail_harm
 
-b: So please, put the bottle down and let's--
+b: Jadi tolong, simpan botol itu dan mari--
 
 ```
 hong({body:"drink"});
@@ -523,24 +523,24 @@ bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 
 `bb({ eyes:"sad" });`
 
-b: please... don't...
+b: Tolong... jangan...
 
-h: Your energy bar's looking awfully low there, wolf.
+h: Bar energimu terlihat sangat rendah di sana, serigala.
 
-h: If I were you, I'd choose your next words very carefully.
+h: Jika aku diposisimu, aku akan memilih kata-kata berikutnya dengan sangat hati-hati.
 
 `bb({ eyes:"normal" });`
 
-[Fine. I'm done protecting you.](#act3_bad_2_jump) `bb({ mouth:"ignore", eyes:"ignore" });`
+[Baik. Aku sudah selesai melindungimu.](#act3_bad_2_jump) `bb({ mouth:"ignore", eyes:"ignore" });`
 
-[I was right all along.](#act3_bad_2_right)
+[Saya selama ini benar.](#act3_bad_2_right)
 
-[I'm sorry.](#act3_good_2b) `bb({mouth:"sorry", eyes:"sorry_down"});`
+[Aku minta maaf.](#act3_good_2b) `bb({mouth:"sorry", eyes:"sorry_down"});`
 
 
 # act3_bad_2_jump
 
-b: So, go ahead and jump. See what I care.
+b: Jadi, lanjutkan dan lompatlah. Lihatlah apa aku peduli.
 
 `hong({ eyes:"look_right", mouth:"normal", MOUTH_LOCK:true });`
 
@@ -551,14 +551,14 @@ hong({ eyes:"less_angry", mouth:"normal" });
 bb({ eyes:"ignore_oh_crap" });
 ```
 
-h: Okay then. Bottoms up.
+h: Baiklah. Selamat minum.
 
 ```
 bb({ mouth:"normal", eyes:"oh_crap" });
 Game.OVERRIDE_TEXT_SPEED = 2;
 ```
 
-b: WAIT NO THAT WAS REVERSE PSYCHOLOGY YOU WERE SUPPOSED TO DO THE *OPPOSITE* OF WHAT I SA--
+b: TUNGGU ITU ADALAH PSIKOLOGI TERBALIK, KAMU SEHARUSNYA MELAKUKAN HAL *BERLAWANAN* DARI YANG AKU KATA--
 
 (#act3_bad_3)
 
@@ -568,13 +568,13 @@ b: WAIT NO THAT WAS REVERSE PSYCHOLOGY YOU WERE SUPPOSED TO DO THE *OPPOSITE* OF
 
 `bb({ eyes:"angry" });`
 
-b: You *are* putting yourself in danger. Your so-called friends *are* using you. And *you* are using your so-called friends.
+b: Kamu *sedang* menempatkan dirimu dalam bahaya. Teman-teman yang kamu sebut *sedang* memanfaatkanmu. Dan *kamu* akan menggunakan apa yang disebut dengan teman.
 
 `bb({ eyes:"sad" });`
 
-b: So please, human... why don't you believe me?!
+b: Jadi tolong, manusia ... kenapa kamu tidak percaya padaku?!
 
-h: Because you never believed in *me*.
+h: Karena kamu tidak pernah percaya pada *diriku*.
 
 (#act3_bad_3)
 
@@ -583,13 +583,13 @@ h: Because you never believed in *me*.
 
 `bb({ eyes:"angry" });`
 
-b: Other guard-wolves have humans who actually take time to patiently train them, to *learn* to work together,
+b: Serigala penjaga lain memiliki manusia yang benar-benar meluangkan waktu untuk melatih mereka dengan sabar, untuk *belajar* bekerja sama,
 
-b: Rather than hate the guard-wolves for trying to protect them! So why can't you jus--
+b: Daripada membenci serigala penjaga karena mencoba melindungi mereka! Jadi kenapa kamu tidak bisa han--
 
 `bb({ eyes:"normal" });`
 
-h: Wrong ^fuck^ing answer.
+h: Jawaban salah ^sialan^.
 
 (#act3_bad_3)
 
@@ -614,29 +614,29 @@ bb({ body:"dead" });
 
 (...999)
 
-h: *"The only thing to fear is fear itself."*
+h: *"Satu-satunya hal yang perlu ditakuti adalah ketakutan itu sendiri."*
 
 `hong({ body:"look_up", mouth:"happy", eyes:"blank" });`
 
-h: *"Don't worry, be happy!"*
+h: *"Jangan khawatir, bersenang-senanglah!"*
 
 `hong({ body:"normal", mouth:"normal", eyes:"normal" });`
 
-h: All the wise folk of our time agree: negative emotions are *bad!*
+h: Semua orang bijak di zaman kita setuju: emosi negatif itu *buruk!*
 
 `hong({ eyes:"less_angry" });`
 
-h: Duh! That's why they're called *negative!*
+h: Duh! Itulah mengapa mereka disebut *negatif!*
 
-b: human... please...
+b: manusia... tolong...
 
 `hong({ eyes:"normal" });`
 
-h: A while back, I said: “I just want to be free from all this pain.”
+h: Beberapa waktu lalu, aku berkata: "Aku hanya ingin bebas dari semua rasa sakit ini."
 
-h: I got my wish. I no longer feel pain, or fear, or anxiety...
+h: Aku mendapatkan keinginanku. Aku tidak lagi merasakan sakit, atau ketakutan, atau kecemasan ...
 
-h: I don't feel anything at all.
+h: Aku tidak merasakan apapun.
 
 `_.a3_ending = "jump";`
 
@@ -648,22 +648,22 @@ h: I don't feel anything at all.
 
 `bb({mouth:"sorry", eyes:"sorry_down"});`
 
-b: I was so obsessed with making sure nothing else hurt you, that I didn't realize *I* was creating the hurt.
+b: Aku sangat terobsesi untuk memastikan tidak ada hal lain yang menyakitimu, sehingga diriku tidak menyadari *akulah* yang menciptakan rasa sakit itu.
 
 ```
 bb({ eyes:"sorry"});
 hong({ body:"yell_2", mouth:"yell", eyes:"blank" });
 ```
 
-h: NO. S^HIT^.
+h: BUKAN. S^IALAN^.
 
 `hong({ body:"yell_1" });`
 
-h: ^GODDAMN^. It really took you this long to finally figure it out?!
+h: ^DEMI TUHAN^. Itu membutuhkan waktu lama untuk akhirnya kau mengetahuinya?!
 
 `hong({ body:"cry", mouth:"cry", eyes:"blank" });`
 
-h: You could've saved us so much trouble, you big fluffy dumb^ass^. Why didn't you realize this sooner?...
+h: Kamu bisa menyelamatkan kami dari banyak masalah, dasar anjing besar ^sial^. Mengapa kamu tidak menyadarinya lebih awal? .
 
 `_.apologized_for_hurt = true;`
 
@@ -675,13 +675,13 @@ h: You could've saved us so much trouble, you big fluffy dumb^ass^. Why didn't y
 
 `hong({ body:"normal", mouth:"angry", eyes:"look_right" });`
 
-h: ...you're *sorry.*
+h: ...kamu *meminta maaf.*
 
 `hong({ eyes:"angry", MOUTH_LOCK:true });`
 
 h: ...
 
-h: Sorry for *what*?
+h: Minta maaf untuk *apa*?
 
 (#act3_good_2q)
 
@@ -703,22 +703,22 @@ h: Sorry for *what*?
 
 `hong({ body:"normal", mouth:"angry", eyes:"less_angry" });`
 
-[I'm sorry I wasn't a good protector.](#act3_good_3_protector)
+[Maaf, aku bukan pelindung yang baik.](#act3_good_3_protector)
 
-[I'm sorry I didn't respect you.](#act3_good_3_respect)
+[Maaf, aku tidak menghormatimu.](#act3_good_3_respect)
 
-[I'm sorry.](#act3_good_4)
+[Maafkan aku..](#act3_good_4)
 
 
 # act3_good_2q_not_already_apologized
 
 `hong({ body:"normal", mouth:"angry", eyes:"angry" }, 0);`
 
-[I'm sorry I have a terrible human!](#act3_bad_2_terrible) `bb({mouth:"normal", eyes:"normal"})`
+[Maaf, aku memiliki manusia yang buruk!](#act3_bad_2_terrible) `bb({mouth:"normal", eyes:"normal"})`
 
-[I'm sorry I didn't respect you.](#act3_good_3_respect)
+[Maaf, aku tidak menghormatimu](#act3_good_3_respect)
 
-[I'm sorry I hurt you.](#act3_good_3_hurt)
+[Maaf, aku menyakitimu.](#act3_good_3_hurt)
 
 
 
@@ -726,19 +726,19 @@ h: Sorry for *what*?
 
 `bb({eyes:"sorry_down"});`
 
-b: It's my duty to warn you against *real* danger, but I kept barking at cars and the mailman.
+b: Itu tugas saya untuk memperingatkanmu mengenai bahaya *sebenarnya*, tapi aku hanya menggonggong seperti mobil dan tukang pos.
 
 `bb({eyes:"sorry_up"});`
 
-b: Barking at shadows. Barking so much.
+b: Menggonggong di bayangan. Banyak menggonggong.
 
 `bb({eyes:"sorry"});`
 
-b: It only makes sense that you'd want to muzzle me.
+b: Masuk akal jika kamu ingin memberangus saya.
 
 `bb({eyes:"sorry_down"});`
 
-b: I'm sorry.
+b: Maafkan aku.
 
 (#act3_good_4)
 
@@ -748,15 +748,15 @@ b: I'm sorry.
 
 `bb({eyes:"sorry_down"});`
 
-b: I was supposed to be *your* loyal guard-dog, but I acted as if you were supposed to obey *me*.
+b:Saya seharusnya menjadi *anjing penjagamu* yang setia, tapi aku bertindak seolah-olah kamu harus *mematuhiku*.
 
 `bb({eyes:"sorry_up"});`
 
-b: There's a difference between a protector and a prison warden, and I crossed the line.
+b: Ada perbedaan antara pelindung dan sipir penjara, dan aku telah melewati batas.
 
 `bb({eyes:"sorry_down"});`
 
-b: I'm sorry.
+b: Maafkan aku.
 
 (#act3_good_4)
 
@@ -766,15 +766,15 @@ b: I'm sorry.
 
 `bb({eyes:"sorry_down"});`
 
-b: I was so obsessed with trying to protect you from being hurt, I never stopped to realize *I* was hurting you.
+b: Aku sangat terobsesi untuk memastikan tidak ada hal lain yang menyakitimu, sehingga diriku tidak menyadari *akulah* yang menciptakan rasa sakit itu.
 
 `bb({eyes:"sorry_up"});`
 
-b: I was a bad dog.
+b: Aku adalah anjing yang buruk.
 
 `bb({eyes:"sorry_down"});`
 
-b: I'm sorry.
+b: Maafkan aku.
 
 (#act3_good_4)
 
@@ -792,11 +792,11 @@ h: ...
 hong({ body:"stop", mouth:"stop", eyes:"blank" });
 ```
 
-h: Yeah, well, this was a dumb idea anyway.
+h: Ya, yah, itu merupakan ide yang bodoh.
 
-h: I only did this to mess you up, and, well, I messed you up.
+h: Aku hanya melakukan ini untuk mengacaukanmu, dan, yah, saya mengacaukanmu.
 
-h: Let's just call this round a tie, okay?
+h: Anggap saja babak ini seri, oke?
 
 ```
 bb({ mouth:"sorry", eyes:"sorry" });
@@ -809,7 +809,7 @@ b: Okay.
 
 h: Okay.
 
-n: *TIE*
+n: *SERI*
 
 `_.a3_ending = "walkaway";`
 
@@ -885,26 +885,26 @@ publish("act3",["roofhunter",27]);
 
 `Game.FORCE_CANT_SKIP = false;`
 
-r: Oh *come on*. After all that animal's done to you, you're just *giving up?*
+r: Oh *ayolah*. Setelah semua yang binatang itu lakukan, kamu sudah *menyerah?*
 
-r: What's the matter, kid? Are you *scared?*
+r: Ada apa, bocah? Apakah kamu *takut?*
 
 ```
 publish('hong-next');
 publish("act3",["roofhunter",26]);
 ```
 
-h2: Yes.
+h2: Iya.
 
-h2: I'm scared.
-
-`publish('hong-next')`
-
-h2: And that's okay!
+h2: Aku takut.
 
 `publish('hong-next')`
 
-h2: It's okay to be scared.
+h2: Dan itu tidak masalah!
+
+`publish('hong-next')`
+
+h2: Tidak masalah untuk takut.
 
 `publish('hong-next')`
 
@@ -1082,7 +1082,7 @@ publish('hong-next');
 
 `publish('hong-next')`
 
-b: no no no
+b: tidak tidak tidak
 
 (...501)
 
@@ -1150,7 +1150,7 @@ Game.FORCE_TEXT_Y = 325;
 Game.OVERRIDE_FONT_SIZE = 50;
 ```
 
-b: NO!
+b: TIDAK!
 
 (...400)
 

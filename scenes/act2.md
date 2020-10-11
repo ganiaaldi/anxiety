@@ -1164,7 +1164,7 @@ b: Bagaimana kamu berpikir perasaan *Aku*, manusia!
 
 `bb({body:"cry_4", mouth:"cry", eyes:"cry"})`
 
-b: Aku mencoba yang terbaik untuk menjadi anjing penjaga Anda, tetapi Anda terus melihatku sebagai Serigala Jahat Besar!
+b: Aku mencoba yang terbaik untuk menjadi anjing penjagamu, tetapi Kamu terus melihatku sebagai Serigala Jahat Besar!
 
 b: Jadi aku berusaha lebih *keras* untuk memperingatkanmu dari bahaya! Bahaya *Lain*! Bahaya *Berbeda*!
 
@@ -1218,7 +1218,7 @@ publish("act2",["party_hunter",2]);
 Game.WORDS_HEIGHT_BOTTOM = 230;
 ```
 
-r: Sepertinya kamu sedang bertengkar dengan diri sendiri, nak.
+r: Sepertinya kamu sedang bertengkar dengan diri sendiri, bocah.
 
 ```
 publish("act2",["party_hunter",3]);
@@ -1275,7 +1275,7 @@ r: Heck, baru kemarin, aku mendengar seseorang meringkuk menjadi bola armadillo 
 publish("act2",["party_hunter",2]);
 ```
 
-r: Dengar: aku tahu bagaimana rasanya memiliki hewan itu di kepala Anda.
+r: Dengar: aku tahu bagaimana rasanya memiliki hewan itu di kepalamu.
 
 ```
 publish("act2",["party_hunter",8]);
@@ -1295,7 +1295,7 @@ publish("act2",["party_hunter",2]);
 publish("act2",["party_hong",21]);
 ```
 
-r: Jangan khawatir, nak. Aku dulu sepertimu. Tapi kemudian aku menemukan sedikit trik untuk membuat suara negatif itu diam selamanya ...
+r: Jangan khawatir, bocah. Aku dulu sepertimu. Tapi kemudian aku menemukan sedikit trik untuk membuat suara negatif itu diam selamanya ...
 
 ```
 publish("act2",["party_hunter",3]);
@@ -1588,7 +1588,7 @@ publish("act2",["party_hunter",14]);
 Game.WORDS_HEIGHT_BOTTOM = 230;
 ```
 
-r: Kamu baik-baik saja, nak?
+r: Kamu baik-baik saja, bocah?
 
 `publish("act2",["party_hunter",13]);`
 
@@ -1645,7 +1645,7 @@ r: Hewan itu mungkin menang hari ini, dan saat kembali nanti aku akan mencampur 
 
 h2: sayōnara, auf wiedersehen, zài jiàn, shalom
 
-r: Kau dan aku, nak, kita akan tunjukan ke hewan buas itu siapa bosnya!
+r: Kau dan aku, bocah, kita akan tunjukan ke hewan buas itu siapa bosnya!
 
 (#act2k_end)
 
@@ -1653,7 +1653,7 @@ r: Kau dan aku, nak, kita akan tunjukan ke hewan buas itu siapa bosnya!
 
 `publish("act2",["party_hong",36]);`
 
-h2: Oke maaf saya harus lari
+h2: Oke maaf aku harus lari
 
 `publish("act2",["party_hunter",16]);`
 
@@ -1669,7 +1669,7 @@ r: Datang ke pestaku akhir pekan depan, manis. Aku akan mencampur sesuatu yang l
 
 h2: Oke terima kasih aku akan lari lari lari lari
 
-r: Kau dan aku, nak, kita akan tunjukan ke hewan buas itu siapa bosnya!
+r: Kau dan aku, bocah, kita akan tunjukan ke hewan buas itu siapa bosnya!
 
 (#act2k_end)
 
