@@ -95,7 +95,7 @@ publish("act3",["roofhunter",10]);
 publish("act3",["roofhong",8]);
 ```
 
-r: Loncatlah.
+r: Lompatlah.
 
 ```
 publish("act3",["roofhunter",11]);
@@ -127,7 +127,7 @@ r: *Oh tidaakkkkk itu berbahaya, jangan lakukan ituuu.*
 publish("act3",["roofhunter",22]);
 ```
 
-r: Tapi itulah mengapa kita membutuhkan sensasi yang menantang maut! Pesta pora! Hari istimewa! Dengusan bersoda dari pelacur ^pantat^, #YOLO!
+r: Tapi itulah mengapa kita membutuhkan sensasi yang menantang maut! Pesta pora! Hari istimewa! Dengusan bersoda dari ^pantat^ ^pelacur^, #YOLO!
 
 ```
 publish("act3",["roofhunter",10]);
@@ -174,7 +174,7 @@ r: Kemudian membuat TED Talks untuk memberitahu kita agar "menerima" menjadi kac
 publish("act3",["roofhunter",6]);
 ```
 
-r: Bocah, Aku mengetahui *kamu* tahu binatang itu *menyakiti* orang seperti kita. Itu *menyiksa* orang seperti kita.
+r: Bocah, Aku mengetahui *binatangmu* itu *menyakiti* orang seperti kita. Itu *menyiksa* orang seperti kita.
 
 ```
 publish("act3",["roofhunter",19]);
@@ -1063,7 +1063,7 @@ publish('hong-next');
 
 `publish('hong-next')`
 
-b: no...
+b: tidak...
 
 (...501)
 

@@ -1429,7 +1429,7 @@ h: *^BRENGSEK^.*
 
 `hong({body:"2_you"});`
 
-h: KAMU.
+h: KAU.
 
 (...500)
 

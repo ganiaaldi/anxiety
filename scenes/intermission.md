@@ -16,13 +16,13 @@ Game.FORCE_CANT_SKIP = true;
 publish("show_stats");
 ```
 
-n2: TAKUTI RONDE INI:
+n2: KETAKUTAN RONDE INI:
 
 i: #harm# *MAKHLUK TERSAKITI:* {{_.INTERMISSION_STAGE==1 ? _.attack_harm_ch1 : _.attack_harm_ch2}}
 
 i: #alone# *TIDAK DICINTAI:* {{_.INTERMISSION_STAGE==1 ? _.attack_alone_ch1 : _.attack_alone_ch2}}
 
-i: #bad# *MENJADI ORANG BURUK:* {{_.INTERMISSION_STAGE==1 ? _.attack_bad_ch1 : _.attack_bad_ch2}}
+i: #bad# *ORANG BURUK:* {{_.INTERMISSION_STAGE==1 ? _.attack_bad_ch1 : _.attack_bad_ch2}}
 
 
 ```

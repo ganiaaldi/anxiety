@@ -14,7 +14,7 @@ Game.FORCE_CANT_SKIP = false;
 Game.CLICK_TO_ADVANCE = true;
 ```
 
-n3: (game auto-saved)
+n3: (permainan otomatis tersimpan)
 
 ```
 Game.clearText();
@@ -215,35 +215,35 @@ hong({body:"hold", eyes:"normal", mouth:"normal"});
 bb({eyes:"normal"});
 ```
 
-h: So what the ^hell^ was the moral of this story?
+h: Jadi apa moral dari cerita ^menyeramkan^ ini?
 
 `hong({body:"one_up", eyes:"annoyed"})`
 
-h: What did we even *learn*? I *was* being stupid, my "friends" *were* using me, and we almost frickin' *died*.
+h: Apa yang kita *pelajari*? Aku *adalah* makluk bodoh, "temanku" *yang* memanfaatkanku, dan kita hampir' *mati*.
 
 `hong({body:"normal", eyes:"normal"})`
 
 {{if _.INJURED}}
-[Yeah, not to mention the hospital bill.](#act4a_bill)
+[Yah, belum lagi tagihan rumah sakit.](#act4a_bill)
 {{/if}}
 
 {{if !_.INJURED}}
-[Yeah, not to mention the liver damage.](#act4a_liver)
+[Yah, belum lagi kerusakan pada hati.](#act4a_liver)
 {{/if}}
 
-[Yeah, that *was* the worst-case scenario.](#act4a_worst)
+[Yah, itu *adalah* skenario terburuk.](#act4a_worst)
 
-[Yeah, I was right.](#act4a_right)
+[Yah, Aku benar.](#act4a_right)
 
 # act4a_bill
 
 `hong({eyes:"annoyed_l", mouth:"narrow"});`
 
-h: Right. I don't think my insurance plan covers "being a dumb^ass^".
+h: Benar. Aku tidak berpikir rencana asuransiku mencakup "menjadi orang ^bodoh^".
 
 `hong({eyes:"annoyed", mouth:"normal"});`
 
-b: And yet... we survived!
+b: Namun ... kita selamat!
 
 `hong({eyes:"normal"});`
 
@@ -255,11 +255,11 @@ h: ?
 
 `bb({eyes:"normal_d"});`
 
-b: We definitely shaved a few years off our life expectancy...
+b: Kita benar-benar memangkas beberapa tahun dari harapan hidupmu ...
 
 `bb({eyes:"surprise"});`
 
-b: But at least we still *have* a life expectancy! We survived!
+b: Tapi setidaknya kita masih *punya* harapan hidup! Kita selamat!
 
 ```
 hong({eyes:"surprise"});
@@ -274,13 +274,13 @@ h: ?
 
 `bb({eyes:"normal_d"});`
 
-b: And yet...
+b: Namun...
 
 h: Hm?
 
 `bb({eyes:"surprise"});`
 
-b: We survived!
+b: Kita selamat!
 
 (#act4b)
 
@@ -288,7 +288,7 @@ b: We survived!
 
 `bb({eyes:"normal_d"});`
 
-b: But... you were right, too.
+b: Tapi... kamu juga benar.
 
 `hong({eyes:"surprise"});`
 
@@ -296,11 +296,11 @@ h: Hm?
 
 `bb({eyes:"normal"});`
 
-b: I *was* the wolf who cried wolf. So when *actual* danger came, you – justifiably – didn't believe me.
+b: Aku *adalah* serigala yang berteriak serigala. Jadi ketika bahaya *sebenarnya* datang, Kamu-secara wajar- tidak mempercayaiku.
 
 `bb({eyes:"surprise_r"});`
 
-b: And yet, we survived!
+b: Namun, kita selamat!
 
 (#act4b)
 
@@ -311,16 +311,16 @@ bb({eyes:"normal", mouth:"normal"});
 hong({eyes:"normal", mouth:"normal"});
 ```
 
-b: Despite everything, we're still here.
+b: Terlepas dari segalanya, kita masih di sini.
 
 `hong({eyes:"suspect"});`
 
 {{if _.INJURED}}
-h: You seem pretty calm considering we just had a near-death experience.
+h: Kamu terlihat tenang mengingat kita baru saja mengalami pengalaman yang mendekati kematian.
 {{/if}}
 
 {{if !_.INJURED}}
-h: You seem pretty calm considering we just had a *near*-near-death experience.
+h: Kamu terlihat tenang mengingat kita baru saja mengalami pengalaman yang *mendekati* kematian.
 {{/if}}
 
 ```
@@ -328,21 +328,21 @@ hong({eyes:"normal"});
 bb({eyes:"annoyed_d", mouth:"narrow"});
 ```
 
-b: Well, it makes everything else less scary in comparison. It's also got me thinking.
+b: Ya, itu membuat segalanya kurang menakutkan jika dibandingkan. Itu membuatku berpikir.
 
 `bb({eyes:"normal", mouth:"normal"});`
 
-b: If me fighting you sucks, because it doesn't protect you...
+b: Jika aku berkelahi denganmu sial, itu karena aku tidak melindungimu ...
 
-h: But me fighting you *also* sucks, because it just makes you yell louder...
+h: Tapi aku melawanmu *juga* sial, itu  karena hanya membuatmu berteriak lebih keras ...
 
 `bb({eyes:"normal_r"})`
 
-b: Then maybe...
+b: Lalu mungkin...
 
 `bb({eyes:"normal"})`
 
-h: Maybe we don't have to fight.
+h: Mungkin kita tidak harus bertengkar..
 
 ```
 Game.FORCE_CANT_SKIP = true;
@@ -381,15 +381,15 @@ music('dontfight',{fade:5, volume:0.6});
 bb({eyes:"annoyed_d"});
 ```
 
-b: I'm not a Big Bad Wolf. But I'm not a guard-wolf either.
+b: Aku bukan Serigala Besar Buruk. Tapi aku juga bukan serigala penjaga.
 
 `bb({eyes:"sad_d"})`
 
-b: I'm a battered shelter dog.
+b: Aku anjing penampungan yang babak belur.
 
 `bb({eyes:"sad"})`
 
-b: We've been through rough stuff. Maybe trauma or neglect. That's why I sometimes over-react and go:
+b: Kita telah melalui hal-hal yang sulit. Mungkin trauma atau pengabaian. Itulah mengapa aku terkadang bereaksi berlebihan dan pergi:
 
 ```
 sfx("yaps", {volume:0.6});
@@ -410,35 +410,35 @@ Game.FORCE_CANT_SKIP = false;
 bb({body:"normal", mouth:"scream", eyes:"scream_sad"});
 ```
 
-b: But I don't *want* to be a cowardly dog! I want to protect you! I want to be a good dog!
+b: Tapi aku tidak *mau* menjadi anjing pengecut! Aku ingin melindungimu! Aku ingin menjadi anjing yang baik!
 
 `bb({eyes:"sad", mouth:"normal"});`
 
-b: Human... will you help tame this wolf?
+b: Manusia... maukah kamu membantu menjinakkan serigala ini?
 
 `hong({eyes:"sad"})`
 
-h: I... I'll try.
+h: A... aku akan mencoba.
 
 `hong({eyes:"normal_l", body:"chin", mouth:"narrow"})`
 
-h: Okay. Healthy relationship with emotions. Relationships need communication. So, let's communicate.
+h: Oke. Hubungan yang sehat dengan emosi. Hubungan membutuhkan komunikasi. Jadi, mari berkomunikasi.
 
 `hong({eyes:"normal", body:"hands_1", mouth:"normal"})`
 
-h: The next five minutes are going to sound super cheesy, but let's fake it 'til we make it.
+h: Lima menit berikutnya akan terdengar sangat murahan, tapi mari kita berpura-pura sampai kita berhasil.
 
 ```
 hong({body:"hands_2", mouth:"normal"});
 ```
 
-h: Dear inner wolf... how are *you* feeling?
+h: Serigala batin yang terhormat... bagaimana *perasaanmu*?
 
-n2: TOTAL FEARS USED:
+n2: TOTAL KETAKUTAN YANG DIGUNAKAN:
 
 n2: *HARMED* {{_.attack_harm_total}}, *UNLOVED* {{_.attack_alone_total}}, *BAD PERSON* {{_.attack_bad_total}}
 
-n2: WHAT FEAR DO YOU WANT TO TALK ABOUT FIRST? (YOU CAN DO THE OTHERS LATER)
+n2: KETAKUTAN APA YANG INGIN DIBICARA PERTAMA KALI? (KAMU DAPAT MEMILIH YANG LAIN NANTI)
 
 ```
 _.a4_fears_discussed = 0;
@@ -447,11 +447,11 @@ hong({body:"normal"});
 bb({eyes:"normal"});
 ```
 
-[I'm scared we'll be harmed.](#act4_harm)
+[Aku takut kita akan disakiti.](#act4_harm)
 
-[I'm scared we'll be alone.](#act4_alone)
+[Aku takut kita akan sendirian.](#act4_alone)
 
-[I'm scared we're bad people.](#act4_bad)
+[Aku takut kita orang buruk.](#act4_bad)
 
 # act4_harm
 
@@ -462,69 +462,69 @@ _.a4_fears_discussed += 1;
 
 `bb({eyes:"normal_d"})`
 
-b: I want to protect your need for physical safety,
+b: Aku akan melindungimu untuk kebutuhan keselamatan fisik,
 
 `bb({eyes:"sad_d"})`
 
-b: But the *whole world* seems so dangerous. So full of tragedy and evil.
+b: Tapi *seluruh dunia* terlihat sangat berbahaya. Penuh dengan tragedi dan kejahatan.
 
 `bb({eyes:"sad"})`
 
 {{if _.a4_fears_discussed==1}}
-b: I dunno, enough of *me* choosing what to say next. What do *you* say, human?
+b: Entahlah, *aku* cukup memilih apa yang akan dikatakan selanjutnya. Apa yang *kamu* katakan, manusia?
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-b: Again, back to you, human. What do you think?
+b: Sekali lagi, kembali kepadamu, manusia. Bagaimana menurutmu?
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
-b: More thoughts, human?
+b: Lebih banyak pikiran, manusia?
 {{/if}}
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[You're right. So let's protect ourselves.](#act4_harm_skills)
+[Kamu benar. Jadi, mari lindungi diri kita sendiri.](#act4_harm_skills)
 
-[Let's expose ourselves to *more* danger.](#act4_harm_exposure)
+[Mari kita mengekspos diri kita ke *lebih* bahaya.](#act4_harm_exposure)
 
-[Thank you.](#act4_thanks) `_.thanks_for = "physical safety";`
+[Terima kasih.](#act4_thanks) `_.thanks_for = "physical safety";`
 
 # act4_harm_skills
 
 `bb({eyes:"look_down", body:"paw"})`
 
-b: But... how? I have fangs and claws, but I'm just a metaphor.
+b: Tapi... bagaimana? Aku memiliki taring dan cakar, tetapi aku hanyalah sebuah metafora.
 
 ```
 bb({ body:"normal", eyes:"normal" });
 hong({ body:"one_up", eyes:"surprise" });
 ```
 
-h: We could learn self-defense? Join a community that protects each other? Improve our general health & personal boundaries?
+h: Kita bisa belajar bela diri? Bergabung dengan komunitas yang saling melindungi? Meningkatkan kesehatan umum & batasan pribadi kita?
 
 ```
 bb({ eyes:"annoyed_r" });
 hong({ body:"normal", eyes:"normal" });
 ```
 
-b: Maybe, but...
+b: Mungkin, tetapi ...
 
-[Where do we even start?](#act4_harm_skills_start)
+[Di mana kita akan memulai?](#act4_harm_skills_start)
 
-[What if they still don't work?](#act4_harm_skills_work)
+[Bagaimana jika mereka masih tidak bekerja?](#act4_harm_skills_work)
 
-[What if we go overboard on "safety"?](#act4_harm_skills_overboard)
+[Bagaimana jika kita berlebihan pada "keamanan"?](#act4_harm_skills_overboard)
 
 # act4_harm_skills_start
 
 `bb({ eyes:"sad_d" })`
 
-b: There's so much to do, so much we need to fix about ourselves. What do we even *begin* with?
+b: Ada begitu banyak yang harus dilakukan, begitu banyak kita perlu perbaiki tentang diri kita sendiri. Darimana kita *memulai*?
 
 `hong({ body:"shrug", eyes:"surprise" })`
 
-h: We're beginning right now.
+h: Kita mulai saat ini juga.
 
 `bb({ eyes:"normal", mouth:"narrow" })`
 
@@ -535,19 +535,19 @@ bb({ body:"normal", mouth:"normal" });
 hong({ body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: We're practicing good communication right now. Which will help us detect danger better, with fewer false positives,
+h: Kita sedang mempraktikkan komunikasi yang baik sekarang. Yang akan membantu kita mendeteksi bahaya dengan lebih baik, dengan sedikit kepalsuan positif,
 
 `hong({ eyes:"surprise" });`
 
-h: And *that* will help protect us from harm!
+h: Dan *itu* akan membantu melindungi kita dari bahaya!
 
 `hong({ eyes:"normal", mouth:"normal" });`
 
-h: Therefore: this *is* self-defense training.
+h: Karena itu: ini *adalah* pelatihan pertahanan diri.
 
 `bb({ eyes:"normal_r" })`
 
-b: Huh. I was expecting more of this:
+b: Hah. Aku mengharapkan lebih dari ini:
 
 ```
 Game.FORCE_CANT_SKIP = true;
@@ -567,26 +567,26 @@ sfx("hiya");
 
 `bb({ eyes:"normal" });`
 
-h: True, there's no way to 100% protect ourselves...
+h: Benar, tidak ada 100%  cara untuk melindungi diri kita sendiri .
 
 `hong({ body:"one_up" });`
 
-h: But even a 1% improvement is still worth something, right?
+h: Tapi bahkan peningkatan 1% masih berharga, bukan?
 
 ```
 bb({ eyes:"annoyed" });
 hong({ normal:"one_up" });
 ```
 
-b: You're seeing the glass as not 99% empty, but 1% full?
+b: Kamu melihat gelasnya tidak 99% kosong, tetapi 1% penuh?
 
 `bb({ eyes:"normal" });`
 
-h: Which is still worth something if you're stranded in the desert.
+h: Yang masih berharga jika Kamu terdampar di gurun.
 
 `bb({ eyes:"closed" });`
 
-b: Well. Bottoms up, then.
+b: Baiklah. Bawalah, lalu.
 
 (#act4_something_else)
 
@@ -594,26 +594,26 @@ b: Well. Bottoms up, then.
 
 `bb({ body:"chest", eyes:"annoyed" })`
 
-b: I mean, the whole reason you ignored my warnings was because *I* went overboard with safety! 
+b: Maksudku, seluruh alasan kamu mengabaikan peringatanku adalah karena *Diriku* pergi dengan aman! 
 
 `bb({ body:"normal", eyes:"normal" })`
 
-h: Naw, you're right. We would want to do safety in moderation. Everything in moderation.
+h: Tidak, kamu benar. Kita ingin melakukan keamanan dalam jumlah secukupnya. Semuanya secukupnya.
 
 `bb({ eyes:"suspect" })`
 
-b: Sorry, *EVERYTHING* in moderation?
+b: Maaf, *SEGALANYA* dalam secukupnya?
 
 `hong({ eyes:"annoyed" })`
 
-h: *A moderate number of things* in moderation.
+h: *Ada beberapa hal secukupnya* dalam secukupnya.
 
 ```
 bb({ eyes:"closed" });
 hong({ eyes:"normal" });
 ```
 
-b: Thank you for making your statements recursively self-consistent.
+b: Terima kasih telah membuat pernyataanmu konsisten secara berulang.
 
 (#act4_something_else)
 
@@ -622,45 +622,45 @@ b: Thank you for making your statements recursively self-consistent.
 
 `bb({ mouth:"scream_talk", eyes:"scream", MOUTH_LOCK:true });`
 
-b: *WHAT*
+b: *APA*
 
 ```
 bb({ mouth:"narrow", eyes:"suspect" });
 hong({ body:"one_up" });
 ```
 
-h: I mean, let's say a dog is scared of thunder.
+h: Maksudku, katakanlah seekor anjing takut dengan petir.
 
 `hong({ body:"hands_1" });`
 
-h: One trick trainers use is to play a recording of thunder at a low volume, then give the dog a treat for staying calm.
+h: Salah satu trik yang digunakan pelatih adalah memutar rekaman suara petir dengan volume rendah, kemudian memberi anjing cemilan agar tetap tenang.
 
 `hong({ body:"hands_2" });`
 
-h: Over several days, the trainer raises the volume bit by bit, until the dog has overcome their fear of thunder.
+h: Selama beberapa hari, pelatih menaikkan volume sedikit demi sedikit, sampai anjing mengatasi ketakutannya terhadap petir.
 
 ```
 hong({ body:"normal", eyes:"surprise" });
 bb({ mouth:"normal", eyes:"normal" });
 ```
 
-h: It's called exposure therapy!
+h:  Ini disebut paparan terapi!
 
 `hong({ body:"point", eyes:"normal" });`
 
-h: Since you're a dog, it should work for you too, right? All mammals have the same fight-or-flight response.
+h: Karena Kamu adalah seekor anjing, itu seharusnya bekerja untukmu juga, bukan? Semua mamalia memiliki respons melawan-atau-lari yang sama.
 
 `hong({ body:"normal" });`
 
-[What if we desensitize *too* much?](#act4_harm_exposure_overboard)
+[Bagaimana jika kita tidak *terlalu* sensitif?](#act4_harm_exposure_overboard)
 
-[What if we're exposed to *real* danger?](#act4_harm_exposure_hurt)
+[Bagaimana jika kita terkena bahaya *nyata*?](#act4_harm_exposure_hurt)
 
-[I'm a wolf, not a dog.](#act4_harm_exposure_dog) `bb({ eyes:"suspect" })`
+[Aku serigala, bukan anjing.](#act4_harm_exposure_dog) `bb({ eyes:"suspect" })`
 
 # act4_harm_exposure_dog
 
-h: And I'll show you kindness and patience 'til you're domesticated into a cute lil' puppy.
+h: Aku akan menunjukkan kebaikan dan kesabaran sampai kamu dijinakkan menjadi anak anjing yang lucu.
 
 `bb({ MOUTH_LOCK:true })`
 
@@ -668,7 +668,7 @@ b: ...
 
 `bb({ eyes:"sad", mouth:"smile" })`
 
-b: D'aw.
+b: aw.
 
 (#act4_something_else)
 
@@ -676,35 +676,35 @@ b: D'aw.
 
 `bb({ eyes:"annoyed" })`
 
-b: We *just* saw what happens if you shut down your fear – you put yourself in *actually* dangerous situations.
+b: Kita *hanya* melihat apa yang terjadi jika kamu menutup ketakutanmu - Kamu menempatkan dirimu didalam situasi berbahaya *sebenarnya*.
 
 `bb({ eyes:"angry_r", body:"one_up" })`
 
-b: Besides, won't *too* much desensitization turn us into psychopaths?
+b: Selain itu, bukankah *terlalu* banyak desensitisasi mengubah kita menjadi psikopat?
 
 `bb({ mouth:"scream", eyes:"scream", body:"two_up" })`
 
-b: Soon we'll give ourselves treats while watching snuff murder porn!
+b: Secepatnya kita akan memberikan diri kita hadiah saat menonton film ^porno^
 
 `hong({ eyes:"annoyed" })`
 
-h: I... think there's a line between that and the thunder.
+h: Aku... pikir ada garis antara itu dan petir.
 
 `bb({ body:"normal", mouth:"normal", eyes:"suspect" })`
 
-b: But exactly *where*, human? *Where?!*
+b: Tapi tepatnya *dimana*, manusia? *Dimana?!*
 
 `hong({ eyes:"surprise", body:"one_up" })`
 
-h: I don't know. But *you* can help me!
+h: Aku tidak tahu. Tapi *kamu* bisa membantuku!
 
 `hong({ eyes:"normal", body:"normal" })`
 
-h: Working and negotiating with you, we'll draw that line.
+h: Bekerja dan bernegosiasi denganmu, kita akan menarik garis itu.
 
 `bb({ body:"paw", mouth:"narrow", eyes:"closed" })`
 
-b: Okay. But I've got no opposable thumbs, so you have to do the drawing.
+b: Oke. Tapi aku tidak punya jempol yang berlawanan, jadi kamu yang harus menggambar.
 
 (#act4_something_else)
 
@@ -713,11 +713,11 @@ b: Okay. But I've got no opposable thumbs, so you have to do the drawing.
 `bb({ body:"two_up", eyes:"angry_r" })`
 
 {{if _.INJURED}}
-b: For example: we jumped off a freaking *roof!*
+b: Sebagai contoh: kita melompat dari *atap* yang aneh!*
 {{/if}}
 
 {{if !_.INJURED}}
-b: For example: we almost jumped off a freaking *roof!*
+b: Sebagai contoh: kita hampir melompat dari *atap* yang aneh!*
 {{/if}}
 
 ```
@@ -725,17 +725,17 @@ hong({ eyes:"annoyed" });
 bb({ body:"normal", eyes:"annoyed" });
 ```
 
-h: Nah you're right. One *can* go too far.
+h: Ya kamu benar. Seseorang *bisa* bertindak terlalu jauh.
 
 `hong({ eyes:"normal" });`
 
-h: But that's why, if we do exposure therapy, we'll start small, and make small steps upward.
+h: Tapi itu sebabnya, jika kita melakukan paparan terapi, kita akan mulai dari yang kecil dan membuat langkah perlahan tapi pasti.
 
-h: Just before we hit *actual* danger, we stop.
+h: Tepat sebelum kita terkena bahaya *aktual*, kita berhenti.
 
 `bb({ eyes:"annoyed_r", mouth:"narrow" });`
 
-b: Yeah I draw the line between hearing loud thunder, and standing in a storm with a tall pointy hat.
+b: Ya, aku menggambar garis diantara mendengar petir yang keras, dan berdiri di tengah badai dengan topi runcing yang tinggi.
 
 (#act4_something_else)
 
@@ -763,11 +763,11 @@ b: ...
 
 `bb({ eyes:"annoyed" })`
 
-b: Wait, no arguments for or against what I'm feeling? Just... "thank you"?
+b: Tunggu, tidak ada argumen untuk menentang apa yang aku rasakan? Hanya ... "terima kasih"?
 
 `hong({ eyes:"surprise", body:"shrug" })`
 
-h: Yeah! Thank you for showing your concern for my {{_.thanks_for}}.
+h: Ya! Terima kasih telah menunjukkan kepedulianmu terhadap diriku.
 
 ```
 bb({ eyes:"closed_annoyed", MOUTH_LOCK:true });
@@ -776,67 +776,67 @@ hong({ eyes:"normal", body:"normal" });
 
 b: ...
 
-h: You okay?
+h: Kamu baik-baik saja?
 
 `bb({ eyes:"super_sad", mouth:"narrow" });`
 
-b: You've never said *thank you* to me before.
+b: Kamu belum pernah mengatakan *terima kasih* kepadaku sebelumnya.
 
 `hong({ mouth:"smile" });`
 
-h: Aw you big fuzzy-wuzzy panic-wolf.
+h: Aw, kamu serigala besar berbulu halus yang panik.
 
 (#act4_something_else)
 
 # act4_thanks_2
 
-h: Even if you over-react, I appreciate you looking out for my {{_.thanks_for}}.
+h: Meskipun kamu bereaksi berlebihan, aku menghargaimu yang memperhatikan diriku.
 
 `bb({ eyes:"annoyed" })`
 
-b: Wait... you're not just repeating "thank you" to avoid actually talking about these fears, are you?
+b: Tunggu ... kamu tidak mengulangi "terima kasih" untuk menghindari pembicaraan tentang ketakutan ini, bukan?
 
 ```
 bb({ eyes:"normal" });
 hong({ eyes:"annoyed", body:"chin" });
 ```
 
-h: Well, stuff's complicated, and I don't always have answers ready.
+h: Ya, masalahnya rumit, dan aku tidak selalu memiliki jawaban yang siap.
 
 `hong({ eyes:"annoyed_l", body:"one_up" })`
 
-h: It's not like life gives you a list of 3 pre-made dialogue responses.
+h: Ini tidak seperti kehidupan yang memberimu daftar 3 tanggapan dialog yang telah dibuat sebelumnya.
 
 `hong({ eyes:"normal", mouth:"smile", body:"normal" })`
 
-h: But for now, I can at least say thanks.
+h: Tapi untuk saat ini, setidaknya aku bisa mengucapkan terima kasih.
 
-b: Well, thank you too, for listening to me patiently.
+b: Terima kasih juga, karena telah mendengarkanku dengan sabar.
 
 `bb({ eyes:"closed" });`
 
-b: You small hairless flesh-mammal.
+b: Kamu mamalia kecil tanpa bulu.
 
 (#act4_something_else)
 
 # act4_thanks_3
 
-h: Even if your yapping scares me, you're simply trying to protect my {{_.thanks_for}}.
+h: Meskipun gonggonganmu membuatku takut, Kamu hanya mencoba melindungi diriku.
 
 `bb({ eyes:"smile_r" });`
 
-b: Okay, if you keep flattering me like this, the internet's gonna get some weird ideas about us.
+b: Oke, jika kamu terus menyanjungku seperti ini, internet akan mendapatkan beberapa ide aneh tentang kita.
 
 ```
 bb({ eyes:"smile" });
 hong({ eyes:"annoyed" });
 ```
 
-h: C'mon, I'm just a vulnerable college-age kid and you're a big, scary wolf. What's the worst that cou--
+h: Ayolah, aku hanya anak usia kuliah yang rentan dan kamu adalah serigala yang besar dan menakutkan. Apa yang terburuk dari--
 
 `hong({ eyes:"normal", body:"point" });`
 
-h: Actually, do not answer that.
+h: Sebenarnya jangan jawab itu
 
 (#act4_something_else)
 
@@ -852,20 +852,20 @@ _.a4_fears_discussed += 1;
 
 `bb({ eyes:"sad_d" });`
 
-b: I want to make sure you fulfil that deep, human need to belong...
+b: Aku ingin memastikanmu memenuhi kebutuhan manusia terdalam   untuk dimiliki ...
 
 `bb({ eyes:"sad_u" });`
 
-b: But I worry that if anyone ever knew us – the *real* us – we'd scare them all away.
+b: Tapi aku khawatir jika ada orang yang mengenal kita-*yang sebenarnya*-kita akan menakuti mereka semua.
 
 `bb({ eyes:"sad" });`
 
 {{if _.a4_fears_discussed==1}}
-b: I dunno, enough of *me* choosing what to say next. What do *you* say, human?
+b: Entahlah, cukup *aku* memilih apa yang akan dikatakan selanjutnya. Apa yang akan *kamu* katakan, manusia?
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-b: Again, back to you, human. What do you think?
+b: Sekali lagi, kembali kepadamu, manusia. Bagaimana menurutmu?
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
@@ -874,11 +874,11 @@ b: More thoughts, human?
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[I agree: let's work on our social life.](#act4_alone_skills)
+[Aku setuju: mari kita kerjakan kehidupan sosial kita.](#act4_alone_skills)
 
-[I think people like us. Let's find out?](#act4_alone_experiment)
+[Aku pikir orang-orang menyukai kami. Ayo cari tahu?](#act4_alone_experiment)
 
-[Thank you.](#act4_thanks) `_.thanks_for = "social belonging";`
+[Terima kasih.](#act4_thanks) `_.thanks_for = "social belonging";`
 
 # act4_alone_skills
 
@@ -887,60 +887,60 @@ bb({ eyes:"normal" });
 hong({ body:"chin" });
 ```
 
-h: We could practice skills like asking questions, listening and empathizing, being open and vulnerable, etc?
+h: Kita bisa melatih keterampilan seperti bertanya, mendengarkan dan berempati, menjadi terbuka dan transparan, dll?
 
 `hong({ eyes:"normal_l" });`
 
-h: Or make better social habits, like scheduling time with friends or regularly going to meetups?
+h: Atau buat kebiasaan sosial yang lebih baik, seperti menjadwalkan waktu dengan teman atau pergi ke pertemuan secara teratur?
 
 `hong({ body:"one_up" });`
 
-h: Could also learn to get more comfortable with rejection.
+h: Bisa juga belajar menjadi lebih nyaman dengan penolakan.
 
 `hong({ eyes:"normal" });`
 
-h: Or learn to know when people *aren't* rejecting us, they're just tired or have Resting ^Bitch^ Face.
+h: Atau belajar untuk mengetahui ketika orang *tidak* menolak kita, mereka hanya lelah atau sedang beristirahat dengan wajah ^jalang^ .
 
 ```
 hong({ body:"normal" });
 bb({ eyes:"annoyed_r" });
 ```
 
-b: That's a lot of options. But, about "learning social skills"...
+b: Banyak sekali pilihan. Tapi, tentang "mempelajari keterampilan sosial" ...
 
-[Isn't that *manipulative?*](#act4_alone_skills_manipulative)
+[Bukankah itu *manipulatif?*](#act4_alone_skills_manipulative)
 
-[Won't that make us *easier to manipulate?*](#act4_alone_skills_manipulated)
+[Bukankah itu akan membuat kita *lebih mudah untuk dimanipulasi?*](#act4_alone_skills_manipulated)
 
-[What if we still fail?](#act4_alone_skills_fail)
+[Bagaimana jika kita masih gagal?](#act4_alone_skills_fail)
 
 # act4_alone_skills_manipulative
 
 `bb({ eyes:"suspect" });`
 
-b: Aren't serial killers who can read their victims' emotions great at "empathy"?
+b: Bukankah pembunuh berantai bisa membaca emosi korbannya dengan baik dengan "empati"?
 
 `bb({ eyes:"annoyed" });`
 
-b: Didn't Charles Manson win friends and influence people?
+b: Bukankah Charles Manson mendapatkan teman dan mempengaruhi orang?
 
 `hong({ eyes:"annoyed", body:"chin" });`
 
-h: No, you're right.
+h: Tidak, kamu benar.
 
-h: "Social skills" mean nothing if we don't genuinely care *for* people.
+h: "Keterampilan sosial" tidak ada artinya jika kita tidak benar-benar peduli *pada* orang.
 
 `hong({ body:"normal" });`
 
-h: Basically, just don't be a ^dick^.
+h: Pada dasarnya, jangan jadi seorang ^brengsek^
 
 `bb({ eyes:"annoyed", mouth:"smile" });`
 
-b: That's a motivational poster caption right there.
+b: Itu bisa menjadi judul poster disana
 
 `hong({ body:"shrug", mouth:"narrow" });`
 
-h: “Don't Be A ^Dick^™”
+h: “Jangan Menjadi Seorang ^Brengsek^™”
 
 (#act4_something_else)
 
@@ -948,29 +948,29 @@ h: “Don't Be A ^Dick^™”
 
 `bb({ eyes:"angry" })`
 
-b: We'll become a Welcome doormat, saying Please and Thank You as people wipe their feet on us!
+b: Kita akan menjadi keset Selamat Datang, mengucapkan Tolong dan Terima Kasih saat orang-orang menyeka kaki mereka pada kita!
 
 `bb({ mouth:"scream", eyes:"scream" })`
 
-b: We'll kiss so much butt, it'll look like we're wearing brown lipstick!
+b: Kita akan mencium banyak pantat, itu akan terlihat seperti kita memakai lipstik coklat!
 
 ```
 bb({ mouth:"normal", eyes:"normal" });
 hong( body:"chin" });
 ```
 
-h: Nah, you're right. "Social skills" can't be just about pleasing others, it's also got to be about setting *boundaries.*
+h: Nah, kamu benar. "Keterampilan sosial" tidak hanya tentang menyenangkan orang lain, itu juga tentang menetapkan sebuah *batasan.*
 
 `hong( body:"one_up" });`
 
-h: We can't invite others into our home, if we have no walls to hold up our home.
+h: Kita tidak dapat mengundang orang lain ke rumah kita, jika kita tidak memiliki dinding untuk menahan rumah kita.
 
 ```
 hong( eyes:"angry", mouth:"narrow" });
 bb( eyes:"annoyed", mouth:"smile" });
 ```
 
-h: Also... re: that lipstick mental image... *ew??*
+h: Juga... mengulang: gambar mental lipstik itu... *iw??*
 
 (#act4_something_else)
 
@@ -978,26 +978,26 @@ h: Also... re: that lipstick mental image... *ew??*
 
 `bb({ eyes:"annoyed" });`
 
-h: We might fail. Actually, we *will* fail.
+h: Kita mungkin gagal. Sebenarnya, kita *akan* gagal..
 
 ```
 bb({ eyes:"normal" });
 hong({ eyes:"surprise", body:"shrug" });
 ```
 
-h: And that's fine! Failing is how anyone learns anything new at first!
+h: Dan itu tidak masalah! Gagal adalah cara seseorang mempelajari sesuatu yang baru pada awalnya!
 
 `hong({ body:"normal", eyes:"normal" });`
 
-h: So let's fail forward together, yeah?
+h: Jadi mari kita gagal bersama, ya?
 
 `bb({ eyes:"normal_r" });`
 
-b: Sure, I guess... worst-case scenario, we can just skip town and get a new identity.
+b: Tentu, kukira ... skenario terburuk, kita bisa melewati kota dan mendapatkan identitas baru.
 
 `bb({ eyes:"normal" });`
 
-h: Yeah I think that only costs two bitcoins these days.
+h: Ya, aku pikir itu hanya berharga dua bitcoin hari ini.
 
 (#act4_something_else)
 
@@ -1008,33 +1008,33 @@ hong({ body:"one_up" });
 bb({ eyes:"normal" });
 ```
 
-h: We could try some experiments!
+h: Kita bisa mencoba beberapa eksperimen!
 
 `hong({ body:"chin" });`
 
-h: We could ping a friend to hang out, reconnect with an old pal, or even just chat with a barista.
+h: Kita bisa mengajak teman untuk hang out, berhubungan kembali dengan sobat lama, atau bahkan sekedar ngobrol dengan barista.
 
 `hong({ body:"normal" });`
 
-h: I think we may find we're more likeable than we suspect.
+h: Aku pikir kita mungkin lebih disukai daripada yang kita duga.
 
 `bb({ eyes:"annoyed" });`
 
-[What if these are small, cheap "wins"?](#act4_alone_experiment_cheap)
+[Bagaimana jika ini adalah *kemenangan* kecil dan murah?](#act4_alone_experiment_cheap)
 
-[What if this is a burden to others?](#act4_alone_experiment_burden)
+[Bagaimana jika ini menjadi beban bagi orang lain?](#act4_alone_experiment_burden)
 
-[But small talk isn't the *real* us!](#act4_alone_experiment_real_us)
+[Tapi obrolan ringan bukanlah hal *nyata* bagi kami!](#act4_alone_experiment_real_us)
 
 # act4_alone_experiment_real_us
 
 `bb({ eyes:"sad" });`
 
-b: If we put on a shallow smile, we'll never really connect with anyone,
+b: Jika kita memasang senyum yang dangkal, kita tidak akan pernah benar-benar terhubung dengan siapa pun,
 
 `bb({ eyes:"super_sad" });`
 
-b: *But* if we open up, other people will see all our messed-up insides!
+b: *Tetapi* jika kita terbuka, orang lain akan melihat semua bagian dalam kita yang kacau!
 
 `hong({body:"chin", mouth:"narrow", MOUTH_LOCK:true})`
 
@@ -1045,64 +1045,64 @@ hong({body:"normal", mouth:"normal"});
 bb({eyes:"normal"});
 ```
 
-h: Roll over.
+h: Berguling.
 
-b: What.
+b: Apa.
 
 `hong({body:"hands_1"})`
 
-h: When dogs want to show love and trust, they make themselves vulnerable by exposing their belly.
+h: Ketika anjing ingin menunjukkan cinta dan kepercayaan, mereka membuat dirinya memperlihatkan perutnya.
 
 `hong({body:"one_up"})`
 
-h: Maybe we're not *yet* secure enough to be too vulnerable, but with enough training,
+h: Mungkin kita *belum* cukup aman untuk menjadi terlalu transparan, tetapi dengan pelatihan yang cukup,
 
 `hong({body:"normal", eyes:"surprise"})`
 
-h: One day we can show people the real us – all messed-up, all human.
+h: Suatu hari kita bisa menunjukkan kepada orang-orang kita bahwa sebenarnya - semua kacau, semua manusia.
 
 ```
 hong({eyes:"normal"});
 bb({ eyes:"super_sad", mouth:"smile", body:"chest" });
 ```
 
-b: I'll roll over if you give me a treat.
+b: Aku akan mampir jika kamu memberiku hadiah.
 
 `bb({ eyes:"normal", mouth:"normal" });`
 
-h: No.
+h: Tidak.
 
 (#act4_something_else)
 
 
 # act4_alone_experiment_cheap
 
-b: Saying "hi" to the barista isn't exactly gold-medal performance in the Social Butterfly Olympics.
+b: Mengucapkan "hai" kepada barista bukanlah prestasi medali emas pada Olimpiade Kupu-Kupu Sosial.
 
 ```
 hong({ body:"point", eyes:"surprise" });
 bb({ eyes:"normal" });
 ```
 
-h: It is for *us!*
+h: Ini untuk *kita!*
 
 `hong({ body:"one_up", eyes:"annoyed" });`
 
-h: In the social arena, we're not even featherweight class, we're like... quark-weight.
+h: Di arena sosial, kita bahkan bukan kelas bulu, kita seperti... kelas berat.
 
 `hong({ body:"normal", eyes:"normal" });`
 
-h: If we have to start with small, cheap wins, so be it. Gotta climb the 1st step before the 1000th step.
+h: Jika kita harus mulai dengan kemenangan kecil dan murah, biarlah. Kita harus mendaki anak tangga pertama sebelum anak tangga 1000.
 
-b: Yeah! Maybe after saying "Hi", we can advance to saying...
+b: Ya! Mungkin setelah mengucapkan "Hai", kita bisa melanjutkan dengan mengatakan...
 
 `bb({ body:"two_up", mouth:"smile", eyes:"smile_u" });`
 
-b: *"How are you?"*
+b: *"Apa kabar?"*
 
 `hong({ body:"shrug", mouth:"smile", eyes:"surprise_l" });`
 
-h: *"Not much!"*
+h: *"Tidak banyak!"*
 
 (#act4_something_else)
 
@@ -1110,29 +1110,29 @@ h: *"Not much!"*
 
 `bb({ eyes:"suspect_r" })`
 
-b: Maybe the barista just wants to make some dang coffee, not be an *experiment* to see if our social skills suck.
+b: Mungkin barista hanya ingin membuat kopi , bukan suatu *percobaan* untuk melihat apakah keterampilan sosial kita payah.
 
 `bb({ eyes:"annoyed" })`
 
-h: Well, if it turns out we *are* being a burden...
+h: Nah, jika ternyata kita *menjadi* sebuah beban.
 
 ```
 hong({ eyes:"surprise" });
 bb({ eyes:"normal" });
 ```
 
-h: That's good to know, too!
+h: Itu bagus untuk diketahui juga!
 
 `hong({ eyes:"normal" });`
 
-h: We can then learn how to pro-actively ask people what they're comfortable with, to know and respect others' boundaries.
+h: Kita kemudian dapat belajar bagaimana secara pro-aktif bertanya kepada orang-orang apa yang membuat mereka nyaman, juga mengetahui dan menghormati batasan orang lain.
 
 ```
 hong({ eyes:"annoyed_l", mouth:"narrow" });
 bb({ eyes:"annoyed", mouth:"smile" });
 ```
 
-h: Y'know, all that "inter-personal skills" ^crap^ we see in counselor brochures.
+h:Kamu tahu, semua "keterampilan antar-pribadi" itu ^omong kosong^ kita lihat itu di brosur konselor.
 
 (#act4_something_else)
 
@@ -1147,43 +1147,43 @@ _.a4_fears_discussed += 1;
 
 `bb({ eyes:"annoyed_r" })`
 
-b: I want to defend your moral needs, that drive to become a better person,
+b:  Aku ingin membela kebutuhan moralmu, dan mendorong untuk menjadi orang yang lebih baik,
 
 `bb({ eyes:"sad_d" })`
 
-b: But it just feels like deep down, we're so fundamentally... broken.
+b: Tapi rasanya jauh di lubuk hati, pada dasarnya kita ... hancur.
 
 `bb({ body:"two_up", eyes:"angry" })`
 
 {{if _.INJURED}}
-b: And don't tell me we're *not* messed up. We jumped off a *roof*.
+b:  Dan jangan bilang kita *tidak* kacau. Kita melompat dari *atap*.
 {{/if}}
 
 {{if !_.INJURED}}
-b: And don't tell me we're *not* messed up. We almost jumped off a *roof*.
+b: Dan jangan bilang kita *tidak* kacau. Kita hampir melompat dari *atap*.
 {{/if}}
 
 `bb({ body:"normal", eyes:"sad" })`
 
 {{if _.a4_fears_discussed==1}}
-b: I dunno, enough of *me* choosing what to say next. What do *you* say, human?
+b: Entahlah, cukup *aku* memilih apa yang akan dikatakan selanjutnya. Apa yang akan *kamu* katakan, manusia?
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-b: Again, back to you, human. What do you think?
+b: Sekali lagi, kembali kepadamu, manusia. Bagaimana menurutmu?
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
-b: More thoughts, human?
+b: Lebih banyak pikiran, manusia?
 {{/if}}
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[So we're broken. Let's fix us.](#act4_bad_fix)
+[Jadi kita hancur. Mari kita perbaiki.](#act4_bad_fix)
 
-[So we're broken. Let's accept it.](#act4_bad_accept)
+[Jadi kita hancur. Mari kita terima.](#act4_bad_accept)
 
-[Thank you.](#act4_thanks) `_.thanks_for = "moral well-being";`
+[Terima kasih.](#act4_thanks) `_.thanks_for = "moral well-being";`
 
 # act4_bad_fix
 
@@ -1192,48 +1192,48 @@ bb({eyes:"normal"});
 hong({body:"chin"});
 ```
 
-h: We could slowly build better habits, get our life more in line with what we value,
+h: Kita perlahan bisa membangun kebiasaan yang lebih baik, membuat hidup kita lebih sejalan dengan apa yang kita hargai,
 
 `hong({body:"one_up"});`
 
-h: And if needed, we could get professional help – a therapist or counsellor.
+h: Dan jika diperlukan, kita bisa mendapatkan bantuan profesional - terapis atau konselor.
 
 `hong({body:"normal"});`
 
 h: There's ways to fix us.
 
-[What if we can't fix it all?](#act4_bad_fix_cant)
+[Bagaimana jika kita tidak dapat memperbaiki semuanya?](#act4_bad_fix_cant)
 
-[What if we fix *too* much?](#act4_bad_fix_too_much)
+[Bagaimana jika kita memperbaiki *terlalu* banyak?](#act4_bad_fix_too_much)
 
-[We can't afford professional help.](#act4_bad_fix_afford)
+[Kita tidak mampu membayar bantuan profesional.](#act4_bad_fix_afford)
 
 # act4_bad_fix_cant
 
 `hong({eyes:"annoyed"});`
 
-h: Nah, I guess you're right.
+h: Nah, kurasa kamu benar.
 
-h: We can't fix it all.
+h: Kita tidak bisa memperbaiki semuanya.
 
 `bb({mouth:"scream", eyes:"scream_sad"});`
 
-b: Ahhh I knew it we'll always be broken!
+b: Ahhh aku tahu kita akan selalu hancur!
 
 `hong({eyes:"surprise"});`
 
-h: But we can at least be *less* broken.
+h: Tapi setidaknya kita bisa *mengurangi* kerusakan.
 
 ```
 bb({mouth:"normal", eyes:"annoyed"});
 hong({eyes:"sad", mouth:"smile"});
 ```
 
-h: Scars heal with time, but they never go away. And that's okay.
+h: Bekas luka sembuh seiring waktu, tapi tidak pernah hilang. Dan itu tidak apa.
 
 `bb({eyes:"annoyed_r"});`
 
-b: I guess. Besides,
+b: Aku kira. Selain,
 
 ```
 Game.FORCE_TEXT_Y = 460;
@@ -1241,7 +1241,7 @@ Game.clearText();
 publish("act4-sexy", [true]);
 ```
 
-b: Scars are *sexy.*
+b: Bekas luka itu * seksi. *
 
 ```
 Game.FORCE_TEXT_Y = -1;
@@ -1251,7 +1251,7 @@ bb({body:"chest", mouth:"smile_talk", MOUTH_LOCK:true, eyes:"sexy"}, 0);
 hong({eyes:"normal", mouth:"normal"}, 0);
 ```
 
-h: Please do not do that.
+h: Tolong jangan lakukan itu.
 
 (#act4_something_else)
 
@@ -1259,35 +1259,35 @@ h: Please do not do that.
 
 `bb({ eyes:"angry_d" })`
 
-b: This feels sick to admit, but... some part of me *wants* to have this disorder.
+b: Ini terasa mual untuk mengakuinya, tapi ... sebagian dari diriku *ingin* mengalami kelainan ini.
 
 `bb({ eyes:"angry" })`
 
-b: I mean, without it, won't we be *boring?*
+b: Maksudku, tanpa itu, tidakkah kita akan *membosankan?*
 
 `bb({ eyes:"sad_r", body:"one_up" })`
 
-b: Without the disorder, won't our art become stale and bland?
+b: Tanpa gangguan, bukankah seni kita akan menjadi basi dan hambar?
 
 `bb({ eyes:"sad_u", body:"two_up" })`
 
-b: Without the disorder, won't we be unable to connect with our friends who have the disorder?
+b: Tanpa gangguan tersebut, bukankah kita tidak dapat terhubung dengan teman-teman kita yang memiliki gangguan tersebut?
 
 `bb({ eyes:"sad", body:"chest" })`
 
-b: If we're ever content with life, won't we stop driving ourselves to do great things?
+b: Jika kita puas dengan hidup, bukankah kita akan berhenti mendorong diri kita sendiri untuk melakukan hal-hal hebat?
 
 `hong({ MOUTH_LOCK:true })`
 
 h: ...
 
-h: If we even fear... "running out of fears"...
+h: Jika kita bahkan takut... "lari dari ketakutan" ...
 
-h: I don't think we're gonna run out of fears.
+h: Aku tidak berpikir kita akan lari dari ketakutan.
 
 `bb({ eyes:"smile_u", body:"normal", mouth:"smile" })`
 
-b: Oh, yeah! Whew! What a relief!
+b: Oh, ya! Wah! Sangat lega!
 
 (#act4_something_else)
 
@@ -1295,53 +1295,53 @@ b: Oh, yeah! Whew! What a relief!
 
 `bb({ body:"one_up", eyes:"sexy", mouth:"normal" })`
 
-b: "Doc, I'm anxious that I'm paying $100/hr just to hear you ask *how does that make you feel?*"
+b: "Dok, saya ingin sekali saya membayar $ 100 / jam hanya untuk mendengar Anda bertanya *bagaimana perasaan Anda?*"
 
 `bb({ body:"paw", eyes:"closed", mouth:"narrow" })`
 
-b: "Mm-hmm. And how does that make you feel?"
+b: "Mm-hmm. Dan bagaimana perasaanmu?"
 
 ```
 bb({ body:"normal", eyes:"normal", mouth:"normal" });
 hong({ eyes:"sad" });
 ```
 
-h: Nah, that's a totally reasonable worry.
+h: Nah, itu kekhawatiran yang sangat masuk akal.
 
 `hong({ eyes:"annoyed", mouth:"sad" });`
 
-h: And it genuinely sucks that mental healthcare isn't affordable for lots of folks.
+h: Dan sungguh menyebalkan bahwa perawatan kesehatan mental tidak terjangkau oleh banyak orang.
 
 `hong({ eyes:"normal", mouth:"normal" });`
 
-h: Still, there are some cheap or free options:
+h: Tetap saja, ada beberapa opsi murah atau gratis:
 
 `hong({ body:"chin" })`
 
-h: Support groups, online therapy, student/non-profit health centers...
+h: SKelompok pendukung, terapi online, pusat kesehatan non profit/pelajar...
 
 `hong({ body:"hands_1" })`
 
-h: Building habits like meditation, sleeping well, chatting regularly with friends, learning new things...
+h: Membangun kebiasaan seperti meditasi, tidur nyenyak, mengobrol teratur dengan teman, mempelajari hal-hal baru..
 
 `hong({ body:"hands_2" })`
 
-h: Going to a library to borrow workbooks for evidence-based psychotherapies...
+h: Pergi ke perpustakaan untuk meminjam buku kerja untuk psikoterapi...
 
 `hong({ body:"one_up" })`
 
-h: There's a full list of resources at the end of this game!
+h: Ada daftar lengkap sumber daya di akhir permainan ini!
 
 ```
 hong({ body:"normal" });
 bb({ eyes:"annoyed", mouth:"narrow" });
 ```
 
-b: Well *that* fourth wall didn't last long.
+b: Yah *itu* tembok keempat tidak akan bertahan lama.
 
 `hong({ body:"point" });`
 
-h: Some things are more important than narrative convention. Such as mental health.
+h: Beberapa hal lebih penting daripada konvensi naratif. Seperti kesehatan mental.
 
 (#act4_something_else)
 
@@ -1353,48 +1353,48 @@ bb({ eyes:"normal" });
 hong({ eyes:"normal_l", body:"one_up", mouth:"narrow" });
 ```
 
-h: I mean, that's what therapists say right? Accept all your emotions, even the negative ones?
+h: Maksudku, itu yang dikatakan terapis kan? Terima semua emosimu, bahkan yang negatif?
 
 ```
 bb({ eyes:"annoyed" });
 hong({ eyes:"normal", body:"normal", mouth:"normal" });
 ```
 
-b: Wait.
+b: Tunggu.
 
-["Accept" as in *give up*?](#act4_bad_accept_give_up)
+["Terima" dalam artian *menyerah*?](#act4_bad_accept_give_up)
 
-["Accept" as in *approve*?](#act4_bad_accept_approve)
+["Terima" dalam artian *setuju*?](#act4_bad_accept_approve)
 
-["Accept" as in *take literally*?](#act4_bad_accept_literally)
+["Seperti" dalam artian *secara harfiah*?](#act4_bad_accept_literally)
 
 # act4_bad_accept_give_up
 
 `bb({ eyes:"angry", body:"one_up" });`
 
-b: Do you think Martin Luther King would've said, "Shucks we can't sit in the front of the bus, let's just *accept* it?"
+b:  Apakah menurutmu Martin Luther King akan berkata, "Sial kita tidak bisa duduk di depan bus, mari kita *terima* saja?"
 
 `bb({ eyes:"angry_r", body:"two_up" });`
 
-b: Why does the Self-Help Industrial Complex think waving the white flag is some *profound wisdom?*
+b: Mengapa Kompleks Industri Pertolongan Pertama berpikir bahwa mengibarkan bendera putih adalah suatu *kebijaksanaan yang mendalam?    *
 
 `bb({ eyes:"annoyed", body:"normal" });`
 
-h: I think therapists mean "accept" bad things as in: acknowledging they exist and are hard to change,
+h: Menurutku terapis "menerima" hal-hal buruk seperti dalam: mengakui bahwa mereka ada dan sulit diubah,
 
-h: But not necessarily giving up a commitment to change.
+h: Tapi belum tentu menyerah pada komitmen untuk berubah.
 
 `bb({ eyes:"suspect" });`
 
-b: Then therapists should say *acknowledge*, not *accept*.
+b: Kemudian terapis harus mengatakan *mengakui*, bukan *menerima*.
 
 `hong({ body:"chin", eyes:"annoyed" });`
 
-h: Yeah come to think of it, "accept" is kinda confusing.
+h: Ya kalau dipikir-pikir, "menerima" itu agak membingungkan.
 
 `bb({ eyes:"closed", mouth:"narrow" });`
 
-b: Well, I *acknowledge* that.
+b: Ya, aku *mengakui* itu.
 
 (#act4_something_else)
 
@@ -1402,52 +1402,52 @@ b: Well, I *acknowledge* that.
 
 `bb({ eyes:"angry" });`
 
-b: Like it's *good* that we're broken or something? No!
+b: Seperti itu *bagus* bahwa kita rusak atau sesuatu? Tidak!
 
 `bb({ eyes:"angry_r", body:"one_up" });`
 
-b: All those dang Hollywood screenwriters who romanticize mental illness are full of crud!
+b: Semua penulis skenario Hollywood yang meromantisasi penyakit mental itu sangat kasar!
 
 `bb({ eyes:"angry", body:"two_up" });`
 
-b: Having a mental disorder *sucks!* It robs people of *lives!* Why should we "accept" that?!
+b: Memiliki gangguan mental *menyebalkan!* Itu merampas *nyawa orang!* Mengapa kita harus "menerima" itu ?!
 
 `bb({ body:"normal" });`
 
-h: I think therapists mean "accept" our emotions as in: be patient with them.
+h: Aku pikir yang dimaksud terapis itu "menerima" emosi kita seperti dalam: bersabar bersama mereka.
 
 ```
 hong({ body:"one_up" });
 bb({ eyes:"normal" });
 ```
 
-h: Like how struggling in quicksand makes you sink faster, and the solution is to patiently lie flat,
+h: Seperti bagaimana bergumul di pasir hisap membuatmu tenggelam lebih cepat, dan solusinya adalah dengan sabar berbaring,
 
 `hong({ eyes:"surprise" });`
 
 {{if _.INJURED}}
-h: Fighting against you, my fear, led me to jump off a roof.
+h: Melawanmu, ketakutanku, membuatku ingin melompat dari atap.
 {{/if}}
 
 {{if !_.INJURED}}
-h: Fighting against you, my fear, almost led me to jump off a roof.
+h: Melawanmu, ketakutanku, membuatku hampir ingin melompat dari atap.
 {{/if}}
 
 `hong({ body:"normal", eyes:"normal" });`
 
-h: Instead, the solution is to do what we're doing now – not to fight, but to patiently be with each other.
+h: Sebaliknya, solusinya adalah melakukan apa yang kita lakukan sekarang - bukan untuk bertengkar, tetapi dengan sabar bersama-sama.
 
 `bb({ eyes:"annoyed" });`
 
-b: Then they should say *that* instead of some problematic word like "accept".
+b: Kemudian mereka harus mengatakan *itu* daripada beberapa kata bermasalah seperti kata "menerima".
 
 `hong({ body:"chin", eyes:"annoyed" });`
 
-h: Yeah come to think of it, "accept" kind of sucks.
+h: Ya kalau dipikir-pikir, "menerima" agak menyebalkan.
 
 `bb({ eyes:"closed_annoyed", mouth:"narrow" });`
 
-b: I do not accept "accept".
+b: Aku tidak menerima kata "menerima".
 
 (#act4_something_else)
 
@@ -1455,30 +1455,30 @@ b: I do not accept "accept".
 
 `bb({ eyes:"sad", body:"one_up" });`
 
-b: But we already *know* you shouldn't take me literally!
+b: Tapi kita sudah *tahu* kamu seharusnya tidak menganggapku secara harfiah!
 
 `bb({ eyes:"sad_u", body:"two_up" });`
 
-b: The whole *problem* is that I want to help you, but I suck at using words to do so!
+b: Keseluruhan *masalah* adalah aku ingin membantumu, tetapi aku payah menggunakan kata-kata untuk melakukannya!
 
 `bb({ eyes:"sad", body:"normal" });`
 
-h: I think therapists mean "accept" your emotions as in: "don't fight or ignore them."
+h: Aku pikir terapis berarti "menerima" emosimu seperti: "jangan melawan atau mengabaikannya."
 
 `hong({ eyes:"surprise", body:"one_up" });`
 
-h: To listen to you, work *with* you, but not take what you say as 100% literal truth.
+h: Untuk mendengarkanmu, bekerja bersama *dengan* dirimu, tetapi jangan anggap apa yang aku katakan sebagai 100% kebenaran literal.
 
 ```
 hong({ eyes:"normal", body:"normal" });
 bb({ eyes:"annoyed", mouth:"normal" });`
 ```
 
-b: Then therapists should say *that* instead of some vague confusing word like "accept".
+b: Kemudian mereka harus mengatakan *itu* daripada beberapa kata bermasalah seperti kata "menerima".
 
 `hong({ body:"chin", eyes:"annoyed" });`
 
-h: I guess they suck at using words, too.
+h: Aku rasa mereka juga payah menggunakan kata-kata.
 
 (#act4_something_else)
 
@@ -1493,11 +1493,11 @@ hong({ body:"normal", mouth:"normal", eyes:"normal" });
 ```
 
 {{if _.a4_fears_discussed==1}}
-h: Anyway, anything else you wanna chat about?
+h: Ngomong-ngomong, ada hal lain yang ingin kamu bicarakan?
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-h: So, anything else on your heavy heart?
+h: Jadi, ada hal lain di yang memberatkan hatimu?
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
@@ -1505,34 +1505,34 @@ h: So, anything else on your heavy heart?
 {{/if}}
 
 {{if _.a4_talked_about_harm!=true}}
-[I'm scared we'll be harmed.](#act4_harm)
+[Aku takut kita akan disakiti.](#act4_harm)
 {{/if}}
 
 {{if _.a4_talked_about_alone!=true}}
-[I'm scared we'll be alone.](#act4_alone)
+[Aku takut kita akan sendirian.](#act4_alone)
 {{/if}}
 
 {{if _.a4_talked_about_bad!=true}}
-[I'm scared we're bad people.](#act4_bad)
+[Aku takut kita orang buruk.](#act4_bad)
 {{/if}}
 
-[Nah, I'm good for now.](#act4c_prelude)
+[Nah, aku baik-baik saja untuk saat ini.](#act4c_prelude)
 
 # act4_something_else_2
 
-h: Okay, I think we've talked about all our fears now.
+h: Oke, aku pikir kita sudah membicarakan semua ketakutan kita sekarang.
 
-b: Yes, there are only three fears.
+b: Ya, hanya ada tiga ketakutan.
 
-h: Yup, exactly three.
+h: Yup, tepat tiga.
 
-b: Convenient.
+b: Betul.
 
 (#act4c)
 
 # act4c_prelude
 
-h: Good chat, team.
+h: Obrolan yang bagus, tim.
 
 (#act4c)
 
@@ -1553,28 +1553,28 @@ h: ...
 
 `bb({eyes:"annoyed_d"})`
 
-b: This isn't some *game*, you know.
+b: Kamu tahu, ini bukan *permainan*.
 
 `bb({eyes:"angry_d", body:"one_up"})`
 
-b: Building a healthy relationship with your emotions isn't as simple as clicking buttons on a screen.
+b: Membangun hubungan yang sehat dengan emosimu tidak sesederhana mengklik tombol di layar.
 
 `bb({eyes:"sad", body:"normal"})`
 
-b: *Can* we really get along?
+b: *Bisakah* kita benar-benar akur?
 
-b: *Can* we work together, as a team?
+b: *Bisakah* kita bekerja sama, sebagai satu tim?
 
 `hong({eyes:"sad", body:"one_up"})`
 
-h: Well,
+h: Nah,
 
 ```
 hong({eyes:"surprise_l"});
 bb({eyes:"normal"});
 ```
 
-a: E-excuse me...
+a: Per-permisi...
 
 ```
 Game.clearText();
@@ -1592,20 +1592,20 @@ music('campus', {volume:0.5, fade:1});
 
 `publish("act4", ["alshire", 0]);`
 
-a: W-wo-would you mind if I sat with you for lunch?
+a: Ma-ma-maukah kamu jika aku duduk bersamamu untuk makan siang?
 
 `publish("act4", ["alshire", 1]);`
 
 {{if _.TOP_FEAR=="harm"}}
-s: *This* is your crush? Why are they sitting alone like a psycho serial killer?
+s: *Ini* orang yang kamu sukai? Mengapa mereka duduk sendiri seperti pembunuh berantai psiko?
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
-s: Asking your crush if you can sit with them? Do you know how *needy* we sound?!
+s: Menanyakan orang yang kamu sukai apakah dirimu bisa duduk bersama mereka? Tahukah kamu betapa kita terdengar sangat *membutuhkannya*?!
 {{/if}}
 
 {{if _.TOP_FEAR=="bad"}}
-s: *This* is your crush? We interrupted their peace and quiet! We're such a burden!
+s: *Ini*  orang yang kamu sukai? Kita menyela kedamaian dan ketenangan mereka! Kita benar-benar beban!
 {{/if}}
 
 `publish("act4", ["alshire", 2]);`
@@ -1616,26 +1616,26 @@ a: I- I mean- it's, it's okay if not, I just...
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h2"`
 
-[Wait, didn't I see you at the party?](#act4d_recognition) `publish("act4", ["hong_to_alshire",1])`
+[Tunggu, bukankah aku melihatmu di pesta?](#act4d_recognition) `publish("act4", ["hong_to_alshire",1])`
 
-[Yeah, of course! Come here.](#act4d_yes) `publish("act4", ["hong_to_alshire",2])`
+[Ya tentu saja! Ayo sini.](#act4d_yes) `publish("act4", ["hong_to_alshire",2])`
 
-[Sorry, I need alone time right now.](#act4d_no) `publish("act4", ["hong_to_alshire",8])`
+[Maaf, aku butuh waktu sendiri sekarang.](#act4d_no) `publish("act4", ["hong_to_alshire",8])`
 
 # act4d_recognition
 
 `publish("act4", ["hong_to_alshire",2]);`
 
-h2: Yeah you were on the couch! At the first party I went to...
+h2: Ya kamu yang ada di sofa! Di pesta pertama yang kukunjungi ..
 
 `publish("act4", ["hong_to_alshire",10]);`
 
 {{if _.a2_ending=="fight"}}
-h2: Where I had that panic attack and punched the host.
+h2: Di mana aku mengalami serangan panik dan meninju tuan rumah.
 {{/if}}
 
 {{if _.a2_ending=="flight"}}
-h2: Where I had that panic attack and ran out crying.
+h2: Dimana aku mengalami serangan panik itu dan berlari keluar sambil menangis.
 {{/if}}
 
 ```
@@ -1643,18 +1643,18 @@ publish("act4", ["hong_to_alshire", 0]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 3 : 1]);
 ```
 
-b: Hang on human, we may be making them uncomfortable.
+b: Tunggu manusia, kita mungkin membuat mereka tidak nyaman.
 
 ```
 publish("act4", ["hong_to_alshire", 3]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 2 : 0]);
 ```
 
-h2: Ah, I don't mean to put you on the spot!
+h2: Ah, aku tidak bermaksud menempatkanmu di tempat!
 
 `publish("act4", ["hong_to_alshire",4]);`
 
-h2: Just remembering a friendly face, is all.
+h2: Hanya mengingat wajah yang bersahabat saja.
 
 ```
 publish("act4", ["hong_to_alshire",5]);
@@ -1662,15 +1662,15 @@ publish("act4", ["alshire", 4]);
 ```
 
 {{if _.TOP_FEAR=="harm"}}
-s: AHHHHH I KNEW IT! THEY'RE A DANGEROUS PANIC-DRIVEN PSYCHO!
+s: AHHHHH AKU TAHU! MEREKA PSYCHO PANIK BERBAHAYA !
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
-s: AAHHH THE FIRST IMPRESSION WE MADE WAS "WITNESSED MY TRAUMA"! THAT MEANS THEY HATE US!
+s: AHHH KESAN PERTAMA YANG KITA BUAT ADALAH "SAKSI TRAUMA SAYA"! ITU BERARTI MEREKA BENCI KITA!
 {{/if}}
 
 {{if _.TOP_FEAR=="bad"}}
-s: AAAHHH WE MADE SOMEONE REMEMBER A TRAUMATIC EVENT. OUR MERE PRESENCE HURTS OTHERS.
+s: AAAHHH KITA MEMBUAT SESEORANG INGAT PERISTIWA TRAUMATIK. KEHADIRAN KITA MENYAKITI ORANG LAIN.
 {{/if}}
 
 (#act4e)
@@ -1682,18 +1682,18 @@ publish("act4", ["hong_to_alshire", 5]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 3 : 1]);
 ```
 
-b: Hang on human, they seem uncomfortable.
+b: Bangun manusia, mereka tampak tidak nyaman.
 
 ```
 publish("act4", ["hong_to_alshire", 6]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 2 : 0]);
 ```
 
-h2: Ah, no pressure of course!
+h2: Ah, tentu saja tidak ada tekanan!
 
 `publish("act4", ["hong_to_alshire", 4]);`
 
-h2: Just saying, you can sit here if you want to.
+h2: Bilang saja, kamu dapat duduk di sini kalau mau.
 
 ```
 publish("act4", ["hong_to_alshire", 5]);
@@ -1701,15 +1701,15 @@ publish("act4", ["alshire", 4]);
 ```
 
 {{if _.TOP_FEAR=="harm"}}
-s: THEY'RE BEING *TOO* FRIENDLY! LIKE TED BUNDY, THE SERIAL KILLER!
+s: MEREKA TERLALU * RAMAH! SEPERTI TED BUNDY, PEMBUNUH DALAM SERI TV!
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
-s: THEY'RE JUST ACTING NICE! NO ONE *REALLY* WANTS TO BE CLOSE TO US!
+s: MEREKA HANYA BERSANDIWARA BAIK! TIDAK ADA SATUPUN *KESERIUSAN* UNTUK DEKAT DENGAN KITA!
 {{/if}}
 
 {{if _.TOP_FEAR=="bad"}}
-s: AHHH WE ALWAYS MAKE OTHERS FEEL AWKWARD! WE'RE A STAIN UPON THE EARTH!
+s: AHHH KITA SELALU MEMBUAT ORANG LAIN MERASA CANGGUNG! KITA NODA DI BUMI!
 {{/if}}
 
 (#act4e)
@@ -1721,18 +1721,18 @@ publish("act4", ["hong_to_alshire", 9]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 3 : 1]);
 ```
 
-b: Hang on human, we may be making them uncomfortable.
+b: Bangun manusia, mereka tampak tidak nyaman.
 
 ```
 publish("act4", ["hong_to_alshire", 3]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 2 : 0]);
 ```
 
-h2: Ah, I don't mean to be rude!
+h2: Ah, Aku tidak bermaksud kasar!
 
 `publish("act4", ["hong_to_alshire", 6]);`
 
-h2: I just need some time to process my emotions. Please don't take it as a personal rejection.
+h2: Aku hanya butuh waktu untuk memproses emosiku. Tolong jangan menganggapnya sebagai penolakan pribadi.
 
 ```
 publish("act4", ["hong_to_alshire", 7]);
@@ -1740,15 +1740,15 @@ publish("act4", ["alshire", 4]);
 ```
 
 {{if _.TOP_FEAR=="harm"}}
-s: WHAT SICK, TWISTED THOUGHTS ARE THEY PROCESSING?! WHAT DARK DESIRES FILL THIS PSYCHO'S HEART?!
+s: APA YANG SAKIT, PIKIRAN APA YANG MEREKA PROSES ?! APA KEINGINAN GELAP YANG MENGISI HATI PSYCHO INI ?!
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
-s: WE'VE BEEN PERSONALLY REJECTED! WE'LL NEVER BE LOVED!
+s: KITA TELAH DITOLAK SECARA PRIBADI! KITA TIDAK AKAN PERNAH DICINTAI!
 {{/if}}
 
 {{if _.TOP_FEAR=="bad"}}
-s: WE INTERRUPTED THEIR EMOTIONAL PROCESSING! NOW THEY'LL BE TRAUMATIZED FOREVER AND IT'S ALL OUR FAULT!
+s: KITA MENGGANGGU EMOSI MEREKA! SEKARANG MEREKA AKAN DI TRAUMAS SELAMANYA DAN ITU SEMUA KESALAHAN KITA!
 {{/if}}
 
 (#act4e)
@@ -1760,7 +1760,7 @@ Game.WORDS_HEIGHT_BOTTOM = 195;
 publish("act4", ["alshire", 6]);
 ```
 
-s: RUN RUN RUN RUN RUN RUN RUN RUN RUN RUN RUN RUN RUN RUN RUN
+s: LARI LARI LARI LARI LARI LARI LARI LARI LARI LARI LARI LARI
 
 ```
 Game.clearText();
@@ -1787,18 +1787,18 @@ Game.WORDS_HEIGHT_BOTTOM = -1; /* reset */
 
 `publish("act4-jumpcut-hong");`
 
-h: Huh. That was weird. I wonder what was going on in their head.
+h: Hah. Itu aneh. Entah apa yang terjadi di kepala mereka.
 
 `publish("act4", ["hong_closer", 2]);`
 
-h: Anyway, you were saying?
+h: Ngomong-ngomong, tadi kamu bilang apa?
 
 ```
 publish("act4", ["hong_closer", 1]);
 publish("act4", ["bb_closer", 6]);
 ```
 
-b: Uh, I forget? Something about teams and work?
+b: Eh, aku lupa? Sesuatu tentang tim dan pekerjaan?
 
 ```
 publish("act4", ["bb_closer", 0]);
@@ -1812,55 +1812,55 @@ publish("act4", ["hong_closer", 1]);
 publish("act4", ["bb_closer", 4]);
 ```
 
-b: They say you should "make peace" with your emotions, as if your emotions are *war criminals*.
+b: Mereka berkata kamu harus "berdamai" dengan emosimu, seolah-olah emosimu adalah *penjahat perang*
 
 `publish("act4", ["bb_closer", 7]);`
 
-b: But I want us to make *more* than mere peace! I want us to be *allies!*
+b: Tapi aku ingin kita membuat *lebih* dari sekedar kedamaian! Aku ingin kita menjadi *sekutu!*
 
 `publish("act4", ["bb_closer", 3]);`
 
-b: I want to be a good guard-dog. Just like how hunger & thirst are alarms for your physical needs,
+b: Aku ingin menjadi anjing penjaga yang baik. Seperti lapar & haus adalah untuk kebutuhan fisikmu,
 
 `publish("act4", ["bb_closer", 8]);`
 
-b: I want to be the alarm for your *psychological* needs – your needs for safety, belonging, goodness.
+b: Aku ingin menjadi kebutuhan *psikologismu*- kebutuhanmu akan keamanan, rasa memiliki, kebaikan.
 
 `publish("act4", ["bb_closer", 1]);`
 
-b: But... I suck at my job, so I need you to train me.
+b: Tapi... Aku payah dalam pekerjaanku, jadi aku membutuhkanmu untuk melatihku.
 
 `publish("act4", ["bb_closer", 4]);`
 
-b: I'm not "always valid," nor "always irrational." I'm just... trying my best. So, please,
+b:  Aku tidak "selalu benar", atau "selalu tidak rasional". Aku hanya... mencoba yang terbaik. Jadi tolong,
 
 `publish("act4", ["bb_closer", 30]);`
 
-b: Help me help you!
+b: Bantu aku!
 
 `publish("act4", ["bb_closer", 6]);`
 
-b: Though, teaching an old dog new tricks *will* take a while. Maybe *years.*
+b: Padahal, mengajari anjing tua trik baru *akan* memakan waktu cukup lama. Mungkin *bertahun-tahun.*
 
 `publish("act4", ["bb_closer", 3]);`
 
-b: And sometimes I'll relapse, I'll slip into my old habits.
+b:  Dan terkadang aku akan kambuh, aku akan menyelinap ke kebiasaan lamaku.
 
 `publish("act4", ["bb_closer", 2]);`
 
-b: I'll bark at shadows. I'll scare you with words. I might even show you some intrusive images of... things.
+b:  Aku akan menggonggong pada bayangan. Aku akan menakutimu dengan kata-kata. Aku bahkan mungkin menunjukkan beberapa gambar mengganggu dari... sesuatu.
 
 `publish("act4", ["bb_closer", 9]);`
 
-b: I'm sorry! I'm a battered shelter dog! Battered dogs poop on your bed sometimes!
+b: Maaf! Aku anjing penampungan yang babak belur! Anjing yang babak belur terkadang buang air di tempat tidurmu!
 
 `publish("act4", ["bb_closer", 4]);`
 
-b: But if you're patient with me... and just stay and sit with me...
+b: Tapi jika Anda sabar denganku... dan diam dan duduk dengan diriku ...
 
 `publish("act4", ["bb_closer", 8]);`
 
-b: Maybe you can tame this wolf.
+b: Mungkin kamu bisa menjinakkan serigala ini.
 
 `publish("act4", ["bb_closer", 0]);`
 
@@ -1870,11 +1870,11 @@ b: Maybe you can tame this wolf.
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[Good dog.](#act4f-pat-bb) `Game.OVERRIDE_CHOICE_SPEAKER = "h"; publish("act4", ["hong_closer", 2]);`
+[Anjing baik.](#act4f-pat-bb) `Game.OVERRIDE_CHOICE_SPEAKER = "h"; publish("act4", ["hong_closer", 2]);`
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "b"`
 
-[Good human.](#act4f-pat-hong) `Game.OVERRIDE_CHOICE_SPEAKER = "b"; publish("act4", ["bb_closer", 8]);`
+[Manusia baik.](#act4f-pat-hong) `Game.OVERRIDE_CHOICE_SPEAKER = "b"; publish("act4", ["bb_closer", 8]);`
 
 # act4f-pat-hong
 
@@ -1971,15 +1971,15 @@ publish("act4", ["hong_closer", 5]);
 ```
 
 {{if _.fifteencigs}}
-b: AAAAA YOU'RE STILL EATING ALONE FIFTEEN CIGARETTES AAAAA
+b: AAAAA ANDA MASIH MAKAN SENDIRI LIMA BELAS ROKOK AAAAA
 {{/if}}
 
 {{if _.parasite}}
-b: AAAAA YOU'RE STILL NOT PRODUCTIVE WHILE EATING WE'RE SOCIETY-PARASITES AAAAA
+b: AAAAA ANDA MASIH TIDAK PRODUKTIF SAAT MAKAN KITA MASYARAKAT-PARASIT AAAAA
 {{/if}}
 
 {{if _.whitebread}}
-b: AAAAA YOU'RE EATING MORE WHITE BREAD AAAAA
+b: AAAAA ANDA BERLEBIH MAKAN ROTI PUTIH AAAAA
 {{/if}}
 
 ```
