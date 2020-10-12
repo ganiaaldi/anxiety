@@ -208,7 +208,7 @@ hong({body:"sigh_2"});
 bb({eyes:"look_down"});
 ```
 
-h: *sigh*
+h: *huft*
 
 ```
 hong({body:"hold", eyes:"normal", mouth:"normal"});
@@ -436,7 +436,7 @@ h: Serigala batin yang terhormat... bagaimana *perasaanmu*?
 
 n2: TOTAL KETAKUTAN YANG DIGUNAKAN:
 
-n2: *HARMED* {{_.attack_harm_total}}, *UNLOVED* {{_.attack_alone_total}}, *BAD PERSON* {{_.attack_bad_total}}
+n2: *TERSAKITI* {{_.attack_harm_total}}, *TIDAK DICINTAI* {{_.attack_alone_total}}, *ORANG BURUK* {{_.attack_bad_total}}
 
 n2: KETAKUTAN APA YANG INGIN DIBICARA PERTAMA KALI? (KAMU DAPAT MEMILIH YANG LAIN NANTI)
 
@@ -1200,7 +1200,7 @@ h: Dan jika diperlukan, kita bisa mendapatkan bantuan profesional - terapis atau
 
 `hong({body:"normal"});`
 
-h: There's ways to fix us.
+h: Itulah cara untuk memperbaiki kita.
 
 [Bagaimana jika kita tidak dapat memperbaiki semuanya?](#act4_bad_fix_cant)
 
@@ -1318,7 +1318,7 @@ h: Tetap saja, ada beberapa opsi murah atau gratis:
 
 `hong({ body:"chin" })`
 
-h: SKelompok pendukung, terapi online, pusat kesehatan non profit/pelajar...
+h: Sekelompok pendukung, terapi online, pusat kesehatan non profit/pelajar...
 
 `hong({ body:"hands_1" })`
 
@@ -1326,7 +1326,7 @@ h: Membangun kebiasaan seperti meditasi, tidur nyenyak, mengobrol teratur dengan
 
 `hong({ body:"hands_2" })`
 
-h: Pergi ke perpustakaan untuk meminjam buku kerja untuk psikoterapi...
+h: Pergi ke perpustakaan untuk meminjam buku kerja tentang psikoterapi...
 
 `hong({ body:"one_up" })`
 
@@ -1610,7 +1610,7 @@ s: *Ini*  orang yang kamu sukai? Kita menyela kedamaian dan ketenangan mereka! K
 
 `publish("act4", ["alshire", 2]);`
 
-a: I- I mean- it's, it's okay if not, I just...
+a: A- Aku maksud- itu, itu tidak apa jika tidak, aku hanya...
 
 `publish("act4", ["alshire", 3]);`
 

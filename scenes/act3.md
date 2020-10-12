@@ -973,7 +973,7 @@ publish("act3",["roofhunter",32]);
 publish("act3",["roofhunter",33]);
 ```
 
-r: Did they just lock the door?
+r: Apa dia baru saja mengunci pintu?
 
 ```
 Game.clearAll();
