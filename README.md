@@ -98,7 +98,7 @@ Kode tambahan oleh [Spacie](https://spacie.me)
 * [Ceaser](https://matthewlein.com/tools/ceaser) by Matthew Lein for CSS animation
 
 
-
+<!--
 ## Cara Untuk Menterjemahkan
 
 Okay. Saya sangat serius untuk meminta maaf sebelumnya.
@@ -191,4 +191,4 @@ Commit, Push, dan Pull Request hasil terjemahan anda ke *repository* ini dengan 
 
 Selamat menerjemahkan dengan kecemasan anda!
 
-
+-->
